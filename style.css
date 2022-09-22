@@ -58,11 +58,12 @@ a{
 		size: 0.5em;
 	}
 	.header{
-		font-size:7vh;
+		font-size:15px;
 		height:30vh;
+		width:100vw;
 	}
 	.click {
-		padding:5px;
+		padding:10px;
 	}
 	.zone{
 		font-size: 0.5em;
