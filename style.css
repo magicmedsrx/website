@@ -66,6 +66,16 @@ a{
 	text-decoration: underline;
 	list-style: none;
 }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  	.header{
+  		height:25vh;
+  		font-size:7vh;
+  	}
+
+}
 .wand{
 	height: 14vh;
 	width: 10px;
