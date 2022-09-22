@@ -18,11 +18,11 @@ function setCookie(cName, cValue, exDays) {
     const d = new Date();
     d.setTime(d.getTime() + (exDays * 24 * 60 * 60 * 1000));
     let expires = "expires=" + d.toUTCString();
-    document.cookie = cName + "=" + cValue + ";" + expires + ";path=/institution.html;SameSite=Strict;Secure";
+    document.cookie = cName + "=" + cValue + ";" + expires + "; path=/institution.html; SameSite=Strict; Secure";
 }
 
 function removeCookie() {
-    document.cookie = "Authentication=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    document.cookie = "Authentication=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/institution.html; SameSite=Strict; Secure";
     location.href = '/';
 }
 
