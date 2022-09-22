@@ -29,7 +29,7 @@ function removeCookie() {
 function checkCookie() {
     if (getCookie('Authentication') == 'true') {
         document.getElementById("user-input").setAttribute('style', 'display: none');
-        document.getElementById("iframe").innerHTML = '<iframe id="iframe" src="./MAGIC%20full%209.20.2022.html" title="description"></iframe>';
+        document.getElementById("iframe").innerHTML = '<iframe id="iframe" src="M.A.G.I.C. - Medication Assistance Guide for Improving patient Care KA 9.20.22.pdf" title="description"></iframe>';
         document.getElementById("log-out").setAttribute('style', 'display: block');
     }
 }
