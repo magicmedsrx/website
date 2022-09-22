@@ -220,7 +220,7 @@ footer{
 		display: flex;
 		font-size:10px;
 		width:100%;
-		text-align: center;
+		text-align: right;
 		align-items: center;
 		text-align: center;
 
@@ -230,7 +230,7 @@ footer{
 		display: flex;
 		font-size:10px;
 		width:100%;
-		text-align: center;
+		text-align: right;
 		align-items: center;
 		text-align: center;
 	}
