@@ -183,7 +183,7 @@ footer{
 		padding-bottom: 0px;
 		padding-top: 0px;
 		margin-top: 0px;
-		font-size:15px;
+		font-size:12px;
 	}
 	.zone{
 		/*font-size: 20px;*/
@@ -199,11 +199,11 @@ footer{
 	}
 	p{
 		margin-right:0px;
-		max-width: 80%
+		max-width: 60%
 	}
 	.largetext{
 		font-size:15px;
-		max-width: 70%;
+		max-width: 60%;
 	}
 	.list{
 		font-size:15px;
@@ -216,7 +216,7 @@ footer{
 		width:1fr;
 	}
 	.acronym{
-		font-size:8px;
+		font-size:10px;
 		width:100%;
 	}
 }
