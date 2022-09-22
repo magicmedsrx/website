@@ -10,9 +10,16 @@ iframe {
 }
 
 #user-input {
+    display: flex;
+    align-items: center;
     margin-top: var(--nav-height);
+    border-radius: 20px;
+
 }
 
 #log-out {
     display: none;
+}
+h1{
+	text-align: center;
 }
