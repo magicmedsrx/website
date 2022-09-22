@@ -40,6 +40,15 @@ body{
 .click:hover{
 	transform:scale(1.4);
 }
+a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+.push{
+	margin-left: auto;
+	font-size:30px;
+}
 @media only screen and (max-width: 600px){
 	.div1 {
 		font-size: 0.5em;
@@ -63,15 +72,9 @@ body{
 	.navigation{
 		background-size: 50%;
 	}
-}
-a{
-	color: white;
-	text-decoration: none;
-	font-family: 'Raleway', sans-serif;
-}
-.push{
-	margin-left: auto;
-	font-size:30px;
+	.push{
+		font-size: 0.5em;
+	}
 }
 .header{
 	display: flex;
