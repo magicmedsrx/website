@@ -171,7 +171,7 @@ footer{
 		align-items: center;
 		text-align: center;
 	}
-	.wand{
+	#wand{
 		height:6vh;
 		width:5px;
 	}
