@@ -167,8 +167,8 @@ footer{
 		font-size:15px;
 		height:30vh;
 		width:100vw;
-		justify-content: space-between;
-		align-items: stretch;
+		justify-content: center;
+		align-items: center;
 		text-align: center;
 	}
 	header{
@@ -188,13 +188,13 @@ footer{
 	}
 	.wand{
 		height:15px;
-		/*width:15px;
-/*	}
+		width:15px;;
+		padding-bottom: 0px;
+		font-size:10px
+	}
 	.links{
 		margin-top:0;
 		padding:10px;
-		padding-bottom: 0px;
-		font-size:10px;
 	}
 	p{
 		margin-right:0px;
@@ -214,6 +214,6 @@ footer{
 	}
 	li{
 		font-size:15px;
-	}*/
-}*/
+	}
+}
 
