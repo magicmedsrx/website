@@ -1,0 +1,18 @@
+:root {
+    --nav-height: 120px;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    margin-top: var(--nav-height);
+    height: calc(100vh - 124px);
+}
+
+#user-input {
+    margin-top: var(--nav-height);
+}
+
+#log-out {
+    display: none;
+}

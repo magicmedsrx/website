@@ -27,7 +27,6 @@ body{
 	width:100%;
 	border-bottom-color: black;
 	border-bottom-style:solid;
-	border-bottom-size:10px;
 }
 .links{
 	display: flex;
@@ -42,10 +41,10 @@ body{
 	transform:scale(1.4);
 }
 @media only screen and (max-width: 600px){
-	   .div1 {
-	   	font-size: 0.5em;
-	   	padding: 0;
-	   }
+	.div1 {
+		font-size: 0.5em;
+		padding: 0;
+	}
 }
 a{
 	color: white;
@@ -98,7 +97,7 @@ a{
 	grid-gap: 5px;
 	grid-template-columns:repeat(auto-fill, minmax(350px,1fr));
 	background-color: white;
-	
+
 }
 .who{
 	/*display: grid;*/
@@ -107,28 +106,25 @@ a{
 	margin-left: 20px;
 	border-bottom-style:solid;
 	border-bottom-color: black;
-	border-bottom-size:5px;
-	border-top-size:10px;
 	max-height: 20%
 }
 .pills{
- 	position: absolute;
- 	width:100vw;
- 	height:100vh;
- 	object-fit: cover;
- 	z-index: -1;
- 	margin-left:-20px;
- 	border-top-style:solid;
+	position: absolute;
+	width:100vw;
+	height:100vh;
+	object-fit: cover;
+	z-index: -1;
+	margin-left:-20px;
+	border-top-style:solid;
 	border-top-color: black;
-	border-top-size:20px;
 	object-position: bottom;
- }
+}
 .largetext{
 	font-size:30px;
 }
 .list{
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px
+	font-size: 20px;
 	margin:0;
 }
 .div1{
@@ -152,17 +148,14 @@ a{
 p{
 	width: 95%
 }
-}
-}
 footer{
 	background-color: rgb(239,222,205);
-	text-align:center;	
+	text-align:center;
 	border-top-color: black;
 	border-top-style:solid;
-	border-top-size:10px;
 	list-style: none;
 	font-family: 'Raleway', sans-serif;
-	font-size: 30px
+	font-size: 30px;
 	margin:0;
 }
 .footer{
