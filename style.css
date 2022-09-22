@@ -165,7 +165,6 @@ footer{
 	}
 	.header{
 		font-size:6vh;
-		height:30vh;
 		width:100vw;
 		justify-content: center;
 		align-items: flex-end;
@@ -211,6 +210,7 @@ footer{
 	}
 	.acronym{
 		font-size:10px;
+		width:100%;
 	}
 	li{
 		font-size:15px;
