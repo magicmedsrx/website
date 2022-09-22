@@ -60,6 +60,9 @@ body{
 	.sticky {
 		width:92%;
 	}
+	.navigation{
+		background-size: 50%;
+	}
 }
 a{
 	color: white;
