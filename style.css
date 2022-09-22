@@ -74,6 +74,9 @@ a{
   		height:25vh;
   		font-size:7vh;
   	}
+  	.click{
+  		padding:10px;
+  	}
 
 }
 .wand{
