@@ -164,12 +164,14 @@ footer{
 		padding: 0;
 	}
 	img{
-		size: 0.5em;
+		height:15px;
 	}
 	.header{
 		font-size:15px;
 		height:30vh;
 		width:100vw;
+		align-items: center;
+		justify-content: center;
 	}
 	.click {
 		padding:20px;
