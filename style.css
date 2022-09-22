@@ -40,12 +40,12 @@ body{
 .click:hover{
 	transform:scale(1.4);
 }
-@media only screen and (max-width: 600px){
+/*@media only screen and (max-width: 600px){
 	.div1 {
 		font-size: 0.5em;
 		padding: 0;
 	}
-}
+}*/
 a{
 	color: white;
 	text-decoration: none;
