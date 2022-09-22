@@ -163,9 +163,6 @@ footer{
 		font-size: 0.5em;
 		padding: 0;
 	}
-	img{
-		height:15px;
-	}
 	.header{
 		font-size:15px;
 		height:30vh;
@@ -182,6 +179,9 @@ footer{
 	}
 	.push{
 		font-size: 10px;
+	}
+	.wand{
+		size:15px;
 	}
 }
 
