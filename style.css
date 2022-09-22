@@ -188,6 +188,7 @@ footer{
 	}
 	.wand{
 		height:15px;
+		width:15px;
 	}
 	.links{
 		margin-top:0;
@@ -208,6 +209,9 @@ footer{
 		height:150px;
 	}
 	.acronym{
+		font-size:15px;
+	}
+	li{
 		font-size:15px;
 	}
 }
