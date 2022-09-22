@@ -51,6 +51,12 @@ body{
 	.header{
 		font-size:0.5em;
 	}
+	.click {
+		padding:5px;
+	}
+	.zone{
+		font-size: 0.5em;
+	}
 }
 a{
 	color: white;
