@@ -170,6 +170,9 @@ footer{
 		justify-content: space-between;
 		align-items: stretch;
 	}
+	header{
+		text-align: center;
+	}
 	.click {
 		padding:20px;
 		padding-top: 0px;
