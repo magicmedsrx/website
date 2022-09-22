@@ -49,35 +49,6 @@ a{
 	margin-left: auto;
 	font-size:30px;
 }
-@media only screen and (max-width: 600px){
-	.div1 {
-		font-size: 0.5em;
-		padding: 0;
-	}
-	img{
-		size: 0.5em;
-	}
-	.header{
-		font-size:15px;
-		height:30vh;
-		width:100vw;
-	}
-	.click {
-		padding:10px;
-	}
-	.zone{
-		font-size: 0.5em;
-	}
-	.sticky {
-		width:92%;
-	}
-	/*.navigation{
-		background-size: 50%;*/
-	}
-	.push{
-		font-size: 10px;
-	}
-}
 .header{
 	display: flex;
 	align-items:flex-end;
@@ -89,22 +60,6 @@ a{
 	text-decoration: underline;
 	list-style: none;
 }
-/*@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-  	.header{
-  		height:auto-fill;
-  		font-size:7vh;
-  	}
-  	.click{
-  		padding:10px;
-  	}
-  	.video{
-  		height:150px;
-  	}
-
-}*/
 .wand{
 	height: 14vh;
 	width: 10px;
@@ -202,5 +157,34 @@ footer{
 	font-size: 22px;
 	list-style: none;
 	text-align: center;
+}
+@media only screen and (max-width: 600px){
+	.div1 {
+		font-size: 0.5em;
+		padding: 0;
+	}
+	img{
+		size: 0.5em;
+	}
+	.header{
+		font-size:15px;
+		height:30vh;
+		width:100vw;
+	}
+	.click {
+		padding:10px;
+	}
+	.zone{
+		font-size: 15px;
+	}
+	.sticky {
+		width:92%;
+	}
+	/*.navigation{
+		background-size: 50%;*/
+	}
+	.push{
+		font-size: 10px;
+	}
 }
 
