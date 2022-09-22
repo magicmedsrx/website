@@ -158,14 +158,14 @@ footer{
 	list-style: none;
 	text-align: center;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 640px){
 	.div1 {
 		font-size: 0.5em;
 		padding: 0;
 	}
 	.header{
 		height:30vh;
-		font-size:12vh;
+		font-size:20px;
 		width:100vw;
 		justify-content: center;
 		align-items: flex-end;
