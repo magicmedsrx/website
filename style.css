@@ -164,7 +164,7 @@ footer{
 		padding: 0;
 	}
 	.header{
-		font-size:10px;
+		font-size:15px;
 		height:30vh;
 		width:100vw;
 		justify-content: space-between;
@@ -188,7 +188,7 @@ footer{
 	}
 	.wand{
 		height:15px;
-		width:15px;
+		/*width:15px;*/
 	}
 	.links{
 		margin-top:0;
@@ -207,6 +207,7 @@ footer{
 	}
 	video{
 		height:150px;
+		width:1fr;
 	}
 	.acronym{
 		font-size:15px;
