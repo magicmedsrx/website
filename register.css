@@ -36,7 +36,7 @@ color: white;
 }
 .click{
 	transition: all 1s;
-	padding: 20px;
+	padding: 30px;
 }
 .click:hover{
 	transform:scale(1.4);
