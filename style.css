@@ -176,6 +176,7 @@ footer{
 	}
 	.click {
 		padding:20px;
+		padding-bottom: 0px;
 		padding-top: 0px;
 		margin-top: 0px;
 	}
@@ -195,6 +196,7 @@ footer{
 	.links{
 		margin-top:0;
 		padding:10px;
+		padding-bottom: 0px;
 	}
 	p{
 		margin-right:0px;
