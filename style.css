@@ -58,7 +58,8 @@ a{
 		size: 0.5em;
 	}
 	.header{
-		font-size:0.5em;
+		font-size:7vh;
+		height:30vh;
 	}
 	.click {
 		padding:5px;
@@ -69,8 +70,8 @@ a{
 	.sticky {
 		width:92%;
 	}
-	.navigation{
-		background-size: 50%;
+	/*.navigation{
+		background-size: 50%;*/
 	}
 	.push{
 		font-size: 10px;
