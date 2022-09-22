@@ -172,7 +172,8 @@ footer{
 	}
 	.click {
 		padding:20px;
-		margin-top: 0;
+		padding-top: 0px;
+		margin-top: 0px;
 	}
 	.zone{
 		font-size: 10px;
