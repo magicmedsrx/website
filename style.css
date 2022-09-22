@@ -217,12 +217,22 @@ footer{
 		width:1fr;
 	}
 	.acronym{
+		display: flex;
 		font-size:10px;
 		width:100%;
 		text-align: center;
+		align-items: center;
+		text-align: center;
+
 	}
 	.underline{
 		text-align:center;
+		display: flex;
+		font-size:10px;
+		width:100%;
+		text-align: center;
+		align-items: center;
+		text-align: center;
 	}
 }
 
