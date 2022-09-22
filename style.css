@@ -165,7 +165,7 @@ footer{
 	}
 	.header{
 		height:30vh;
-		font-size:20px;
+		font-size:6vh;
 		width:100vw;
 		justify-content: center;
 		align-items: center;
@@ -183,13 +183,14 @@ footer{
 		padding-bottom: 0px;
 		padding-top: 0px;
 		margin-top: 0px;
+		font-size:15px;
 	}
 	.zone{
 		/*font-size: 20px;*/
 		margin-right: 0px;
 	}
 	.push{
-		font-size: 10px;
+		font-size: 15px;
 	}
 	.links{
 		margin-top:0;
@@ -198,11 +199,16 @@ footer{
 	}
 	p{
 		margin-right:0px;
+		max-width: 80%
 	}
 	.largetext{
 		font-size:15px;
+		max-width: 70%;
 	}
 	.list{
+		font-size:15px;
+	}
+	.nobullet{
 		font-size:15px;
 	}
 	video{
@@ -212,9 +218,6 @@ footer{
 	.acronym{
 		font-size:8px;
 		width:100%;
-	}
-	li{
-		font-size:15px;
 	}
 }
 
