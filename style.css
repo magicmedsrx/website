@@ -71,7 +71,7 @@ a{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
   	.header{
-  		height:25vh;
+  		height:35vh;
   		font-size:7vh;
   	}
   	.click{
