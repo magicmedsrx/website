@@ -169,6 +169,7 @@ footer{
 		width:100vw;
 		justify-content: space-between;
 		align-items: stretch;
+		text-align: center;
 	}
 	header{
 		text-align: center;
