@@ -204,5 +204,8 @@ footer{
 	.list{
 		font-size:15px;
 	}
+	video{
+		height:150px;
+	}
 }
 
