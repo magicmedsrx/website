@@ -164,12 +164,16 @@ footer{
 		padding: 0;
 	}
 	.header{
-		font-size:20px;
+		font-size:6vh;
 		height:30vh;
 		width:100vw;
 		justify-content: center;
 		align-items: flex-end;
 		text-align: center;
+	}
+	.wand{
+		height:6vh;
+		width:5px;
 	}
 	header{
 		text-align: center;
@@ -186,11 +190,6 @@ footer{
 	}
 	.push{
 		font-size: 10px;
-	}
-	.wand{
-		height:15px;
-		padding-bottom: 0px;
-		font-size:10px
 	}
 	.links{
 		margin-top:0;
