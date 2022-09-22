@@ -1,4 +1,3 @@
-
 function getCookie(cname) {
     const name = cname + "=";
     const decodedCookie = decodeURIComponent(document.cookie);
