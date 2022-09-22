@@ -51,7 +51,7 @@ a{
 }
 .header{
 	display: flex;
-	align-items:center;
+	align-items:flex-end;
 	justify-content: center;
 	height:55vh;
 	background-color: rgb(239,222,205);
@@ -168,7 +168,7 @@ footer{
 		height:30vh;
 		width:100vw;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-end;
 		text-align: center;
 	}
 	header{
