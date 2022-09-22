@@ -167,8 +167,8 @@ footer{
 		font-size:10px;
 		height:30vh;
 		width:100vw;
-		align-items: center;
-		justify-content: center;
+		justify-content: space-between;
+		align-items: stretch;
 	}
 	.click {
 		padding:20px;
@@ -187,7 +187,6 @@ footer{
 	}
 	.links{
 		margin-top:0;
-		margin-bottom:5px;
 	}
 }*/
 
