@@ -162,6 +162,7 @@ footer{
 	.div1 {
 		font-size: 15px;
 		padding: 0;
+		max-width: 50%;
 	}
 	.header{
 		height:30vh;
