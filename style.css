@@ -71,11 +71,14 @@ a{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
   	.header{
-  		height:35vh;
+  		height:auto-fill;
   		font-size:7vh;
   	}
   	.click{
   		padding:10px;
+  	}
+  	.video{
+  		height:150px;
   	}
 
 }
