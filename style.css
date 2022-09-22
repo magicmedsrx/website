@@ -187,7 +187,7 @@ footer{
 		font-size: 10px;
 	}
 	.wand{
-		size:15px;
+		height:15px;
 	}
 	.links{
 		margin-top:0;
@@ -199,6 +199,9 @@ footer{
 		margin-right:0px;
 	}
 	.largetext{
+		font-size:15px;
+	}
+	.list{
 		font-size:15px;
 	}
 }
