@@ -160,7 +160,7 @@ footer{
 }
 @media only screen and (max-width: 640px){
 	.div1 {
-		font-size: 0.5em;
+		font-size: 15px;
 		padding: 0;
 	}
 	.header{
