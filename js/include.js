@@ -29,7 +29,7 @@ function removeCookie() {
 function checkCookie() {
     if (getCookie('Authentication') == 'true') {
         document.getElementById("user-input").setAttribute('style', 'display: none');
-        document.getElementById("iframe").innerHTML = '<iframe id="iframe" src="MAGICFULL9.22.22.pdf#toolbar=0"></iframe>';
+        document.getElementById("iframe").innerHTML = '<iframe id="iframe" src="MAGICFULL9.23.22.pdf#toolbar=0"></iframe>';
         document.getElementById("log-out").setAttribute('style', 'display: block');
     }
 }
