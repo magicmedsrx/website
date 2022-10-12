@@ -33,7 +33,6 @@ function checkCookie() {
         document.getElementById("log-out").setAttribute('style', 'display: block');
     }
 }
-
 function searchArray(username, password) {
     for (let i = 0; i < CREDENTIALS.length; i++) {
         if (CREDENTIALS[i][0] == username) {
