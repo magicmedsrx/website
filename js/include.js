@@ -1,4 +1,4 @@
-INSTITUTION_PDF_NAME = "MAGIC FULL 10.18.22.pdf"
+INSTITUTION_PDF_NAME = "MAGIC FULL 10.28.22.pdf"
 
 function getCookie(cname) {
     const name = cname + "=";
