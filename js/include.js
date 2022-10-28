@@ -1,3 +1,5 @@
+INSTITUTION_PDF_NAME = "MAGIC FULL 10.18.22.pdf"
+
 function getCookie(cname) {
     const name = cname + "=";
     const decodedCookie = decodeURIComponent(document.cookie);
@@ -29,7 +31,7 @@ function removeCookie() {
 function checkCookie() {
     if (getCookie('Authentication') == 'true') {
         document.getElementById("user-input").setAttribute('style', 'display: none');
-        document.getElementById("iframe").innerHTML = '<iframe id="iframe" src="MAGIC FULL 10.18.22.pdf#toolbar=0"></iframe>';
+        document.getElementById("iframe").innerHTML = '<iframe id="iframe" src="./pdf/institution/' + INSTITUTION_PDF_NAME + '#toolbar=0"></iframe>';
         document.getElementById("log-out").setAttribute('style', 'display: block');
     }
 }
