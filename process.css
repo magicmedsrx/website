@@ -1,6 +1,7 @@
 body{
 	background-image: url(pills.jpg);
 	background-size: cover;
+	background-repeat: none;
 	font-family: 'Raleway', sans-serif;
 }
 .zone{
