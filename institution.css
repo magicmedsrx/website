@@ -8,7 +8,6 @@ iframe {
     margin-top: var(--nav-height);
     height: calc(100vh - 124px);
 }
-
 #user-input {
     display: flex;
     align-items: center;
@@ -16,7 +15,6 @@ iframe {
     border-radius: 20px;
     padding-left: 20px;
     margin-left:20px;
-
 }
 
 #log-out {
