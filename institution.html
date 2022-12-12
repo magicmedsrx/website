@@ -1,34 +1,30 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="./institution.css?v=0.0.1">
-		<link rel="stylesheet" type="text/css" href="./style.css?v=0.0.1">
-		<title>Institution</title>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INSTITUTIONAL ACCESS</title>
+</head>
+<body>
+<div class="navbar sticky">
+        <ul class="ul">
+            <li class="ulli"><a class="ullia" href="about.html">ABOUT</a></li>
+            <li class="ulli"><a class="ullia"href="index.html">HOME</a></li>
+            <li class="ulli"><a class="ullia"href="patients.html">PATIENTS</a></li>
+            <li class="ulli"><a class="ullia"href="register.html">REGISTER</a></li>
+        </ul>
+</div>
+<div id="user-input">
+    <form>
+        <h1 class="title">Institution login</h1>
+        <input class="input" type="text" id="username" name="username" placeholder="Username">
+        <input class="input" type="password" id="password" name="password" placeholder="Password">
+        <input class="input" type="submit" name="submit" value="Login" onClick = "authenticate();return false;">
+    </form>
+</div>
 
-		<nav class="zone navigation sticky">
-			<ul class="links">
-				<li class= "click"><a href="about.html">ABOUT US</a></li>
-				<li class= "click"><a href="index.html">RETURN TO HOME</a></li>
-				<li class="push click"><a href="process.html">GO TO MAGIC</a></li>
-				<li class= "click log-out"><button id="log-out" type="button" onclick="removeCookie()">Log out</button></li>
-			</ul>
-		</nav>
-	</head>
-	<body>
-		<div id="user-input">
-			<form>
-				<h1 class="title">Institution login</h1>
-				<input type="text" id="username" name="username" placeholder="Username">
-				<input type="password" id="password" name="password" placeholder="Password">
-				<input type="submit" name="submit" value="Login" onClick = "authenticate();return false;">
-			</form>
-		</div>
+<div id="iframe"></div>
 
-		<div id="iframe"></div>
-
-		<script src="./js/secrets.js?v=0.0.2"></script>
-		<script src="./js/include.js?v=0.0.1"></script>
-	</body>
+<script src="./js/secrets.js?v=0.0.2"></script>
+<script src="./js/include.js?v=0.0.1"></script>
+</body>
 </html>

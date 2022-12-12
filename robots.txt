@@ -1,4 +1,0 @@
-user-agent: *
-Disallow: /M.A.G.I.C.*
-Disallow: /MAGIC*
-Disallow: /js
