@@ -220,7 +220,8 @@ height:400px;
 }
 footer{
     color:rgb(66, 133, 137);
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
 }
 :root {
     --nav-height: 120px;
@@ -262,4 +263,7 @@ input{
 .hipaa{
     text-align: left;
     color: rgb(66, 133, 137);
+}
+address{
+    display: inline-block;
 }
