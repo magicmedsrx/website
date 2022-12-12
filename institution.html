@@ -20,6 +20,7 @@
             <li class="ulli"><a class="ullia" href="index.html">HOME</a></li>
             <li class="ulli"><a class="ullia" href="patients.html">PATIENTS</a></li>
             <li class="ulli"><a class="ullia" href="register.html">REGISTER</a></li>
+            <li class="ulli log-out"><button id="log-out" type="button" onclick="removeCookie()">Log out</button></li>
         </ul>
     </div>
     <div id="user-input">
@@ -27,7 +28,7 @@
             <h1 class="title">Institution login</h1>
             <input class="input" type="text" id="username" name="username" placeholder="Username">
             <input class="input" type="password" id="password" name="password" placeholder="Password">
-            <input class="input" type="submit" name="submit" value="Login" onClick="authenticate();return false;">
+            <input class="input" type="submit" name="submit" value="Login" onclick="authenticate();return false;">
         </form>
     </div>
 
