@@ -1,17 +1,143 @@
 :root {
-    --nav-height: 220px;
+    --backGroundColor: #efdecd;
+    --lightBlue: #94cffb;
+    --darkBlue: #428589;
+    --almostWhite: #f5f5f5;
+    --almostBlack: #333;
+
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+
+    --radius: 30px;
+}
+
+@media (min-width: 600px) {
+    :root {
+        --fs-600: 2.25rem;
+        --fs-500: 2rem;
+        --fs-400: 1.5rem;
+    }
 }
 
 body {
-    background-color: #efdecd;
-    opacity: 0.9;
-    margin-bottom: 10px;
-    font-family: 'Heebo', sans-serif;
-    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: var(--backGroundColor);
 }
 
-p {
-    text-align: center;
+nav {
+    background-color: var(--lightBlue);
+    border-bottom: 2px solid var(--darkBlue);
+    display: flex;
+    justify-content: center;
+    /* I would only do this if you are set on having it be sticky */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav > a {
+    color: var(--darkBlue);
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: var(--fs-400);
+}
+
+.active {
+    color: var(--almostWhite);
+    background-color: var(--darkBlue);
+}
+
+nav>a:hover {
+    background-color: #111;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: clamp(100px, 100%, 600px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 0 5px;
+    width: clamp(100px, calc(100% - 10px), 1000px);
+}
+
+.indexInfo {
+    padding: 0 10px;
+    font-size: var(--fs-400);
+    background-color: var(--darkBlue);
+    color: var(--almostWhite);
+    border-radius: var(--radius);
+}
+
+.indexInfo > h3 {
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+
+.indexInfo > ol {
+    padding: 20px;
+}
+
+@media (min-width: 600px) {
+    .indexInfo>ol {
+            padding: 30px;
+        }
+}
+
+.video {
+    margin-top: 30px;
+    border: 3px solid var(--darkBlue);
+    border-radius: var(--radius);
+    width: clamp(100px, calc(100% - 5px), 1000px);
+    height: 30vh;
+}
+
+@media (min-width: 600px) {
+.video {
+        height: 50vh;
+    }
+}
+
+.guideInfoContainer {
+    position: relative;
+    margin-top: 20px;
+}
+
+.pillImg{
+    width: clamp(100px, calc(100% - 5px), 1000px);
+    opacity: 0.75;
+    border: 3px solid var(--darkBlue);
+    border-radius: var(--radius);
+}
+
+.guideInfoText {
+    position: absolute;
+    top: 0;
+    padding: 0 10px;
+    /* color: var(--almostWhite); */
+    font-size: var(--fs-400);
+}
+
+.drugImgContainer {
+    background-color: #fff;
+    border-top: 3px solid var(--darkBlue);
+    padding: 10px;
+}
+
+/* center images */
+.drugImgContainer > img {
+    width: clamp(100px, 250px, 400px);
 }
 
 address {
@@ -19,259 +145,8 @@ address {
 }
 
 footer {
-    color: #428589;
-    font-size: 20px;
+    color: var(--darkBlue);
+    font-size: var(--fs-400);
     text-align: center;
-}
-
-.navbar {
-    position: fixed;
-    display: flex;
-    padding-top: 5px;
-    justify-content: center;
-    padding-left: 10px;
-    float: above;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding-bottom: 30px;
-}
-
-.ul {
-    margin: 0;
-    padding-bottom: 30px;
-    padding-top: 10px;
-    list-style: none;
-}
-
-.ulli {
-    display: inline-block;
-    width: 200px;
-    height: 100px;
-    text-align: center;
-    font-size: 30px;
-    padding-bottom: 40px;
-}
-
-.ullia {
-    text-decoration: none;
-    color: #428589;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #efdecd;
-    padding-bottom: 10px;
-}
-
-.ullia :hover {
-    transform: scale(1.2em);
-    cursor: pointer;
-}
-
-.flexbox-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 30px;
-}
-
-.video {
-    border: 3px solid #428589;
-    border-radius: 5%;
-}
-
-.flexbox-item {
-    margin-top: 10px;
-    justify-self: center;
-}
-
-.flexbox-item-1 {
-    width: 960px;
-    min-height: 100px;
-    background-color: #efdecd;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.flexbox-item-2 {
-    width: 960px;
-    min-height: 300px;
-    max-height: 400px;
-    background-color: #efdecd;
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 6%;
-    padding-bottom: 420px;
-}
-
-.flexbox-item-3 {
-    width: 1000px;
-    position: relative;
-    min-height: 300px;
-    max-height: 500px;
-    background-color: #94cffb;
-    text-align: justify;
-    border: 3px solid #428589;
-    border-radius: 6%;
-    margin-bottom: 20px;
-}
-
-.flexbox-item-4 {
-    width: 100vw;
-    min-height: 300px;
-    background-color: #428589;
-    color: #efdecd;
-    font-size: 28px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #428589;
-    border-top: 4px solid #efdecd;
-    border-bottom: 4px solid #efdecd;
-    margin-bottom: 10px;
-}
-
-.flexbox-item-5 {
-    width: 960px;
-    min-height: 300px;
-    max-height: 400px;
-    background-color: #efdecd;
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 6%;
-}
-
-.ninesixty {
-    width: 960px;
-}
-
-.elevenhundred {
-    width: 960px;
-    position: absolute;
-    float: above;
-    text-align: justify;
-    padding-left: 10px;
-    padding-right: 5px;
-    border: 2px;
-    border-radius: 6%;
-    color: #fff;
-}
-
-.pills {
-    float: left;
-    position: relative;
-    border-radius: 6%;
-    max-height: 500px;
-    width: 1000px;
-}
-
-.moveup {
-    transform: translate(0, -338px);
-    display: block;
-    text-align: justify;
-    padding-left: 30px;
-    float: under;
-    color: #fff;
-}
-
-.block {
-    list-style: circle;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 5px;
-    background-color: #fff;
-    border-top: 4px solid #428589;
-    border-bottom: 4px solid #428589;
-    margin-left: -1px;
-    margin-right: -1px;
-    width: 100vw;
-}
-
-.grid-item {
-    padding: 15px;
-    cursor: pointer;
-    font-size: 1.2em;
-    transition: all 0.3s linear;
-    align-items: center;
-    align-content: center;
-    background-color: #fff;
-}
-
-.drugPic {
-    max-width: 280px;
-}
-
-.logo {
-    width: 45%;
-    height: 400px;
-}
-
-.googleForm {
-    display: flex;
-    align-items: left;
-    margin-top: 0px;
-    float: left;
-    width: 65vw;
-}
-
-.about {
-    text-align: justify;
-    font-size: 25px;
-    color: #428589;
-}
-
-.me {
-    width: 220px;
-    height: 400px;
-    float: left;
-    padding-right: 10px;
-}
-
-.header {
-    color: #428589;
-}
-
-#iframe {
-    border: none;
-    width: 100%;
-    margin-top: var(--nav-height);
-    height: calc(100vh - 124px);
-}
-
-iframe {
-    border: none;
-    width: 100%;
-    margin-top: var(--nav-height);
-    height: calc(100vh - 124px);
-}
-
-#user-input {
-    display: flex;
-    align-items: center;
-    margin-top: var(--nav-height);
-    border-radius: 20px;
-    padding-left: 20px;
-    margin-left: 20px;
-}
-
-#log-out {
-    display: none;
-    margin: auto;
-}
-
-.title {
-    text-align: center;
-    color: #428589;
-}
-
-input {
-    color: #428589;
-    text-align: center;
-}
-
-.hipaa {
-    text-align: left;
-    color: #428589;
+    margin: 20px;
 }
