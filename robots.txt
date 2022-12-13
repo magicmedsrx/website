@@ -1,4 +1,5 @@
 user-agent: *
-Disallow: /M.A.G.I.C.*
-Disallow: /MAGIC*
+Disallow: /pdf
 Disallow: /js
+
+Disallow: /institution.html

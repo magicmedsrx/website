@@ -1,7 +1,7 @@
-INSTITUTION_PDF_NAME = "MAGICFULL 12.10.22.pdf"
+INSTITUTION_PDF_NAME = "MAGICFULL 12.10.22.pdf";
 
-function getCookie(cname) {
-    const name = cname + "=";
+function getCookie(cookieName) {
+    const name = cookieName + "=";
     const decodedCookie = decodeURIComponent(document.cookie);
     const ca = decodedCookie.split(';');
     for (let i = 0; i < ca.length; i++) {
@@ -16,11 +16,11 @@ function getCookie(cname) {
     return "";
 }
 
-function setCookie(cName, cValue, exDays) {
+function setCookie(cookieName, cookieValue, exDays) {
     const d = new Date();
     d.setTime(d.getTime() + (exDays * 24 * 60 * 60 * 1000));
     let expires = "expires=" + d.toUTCString();
-    document.cookie = cName + "=" + cValue + ";" + expires + "; path=/institution.html; SameSite=Strict; Secure";
+    document.cookie = cookieName + "=" + cookieValue + ";" + expires + "; path=/institution.html; SameSite=Strict; Secure";
 }
 
 function removeCookie() {
@@ -49,13 +49,13 @@ function searchArray(username, password) {
 }
 
 function validateCredentials() {
-    const username = document.getElementById("username").value;
-    const password = document.getElementById("password").value;
+    const USERNAME = document.getElementById("username").value;
+    const PASSWORD = document.getElementById("password").value;
 
-    const sResult = searchArray(username, password);
+    const sResult = searchArray(USERNAME, PASSWORD);
     if (sResult == true) {
         setCookie('Authentication', 'true', 29);
-        checkCookie()
+        checkCookie();
     } else if (sResult == false) {
         alert("Incorrect password");
     } else {
@@ -64,7 +64,7 @@ function validateCredentials() {
 }
 
 function authenticate() {
-    validateCredentials()
+    validateCredentials();
 }
 
-checkCookie()
+checkCookie();
