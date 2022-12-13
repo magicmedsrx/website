@@ -1,30 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>INSTITUTIONAL ACCESS</title>
+    <!-- © 2022 Kyle Ames. All rights reserved. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kyle Ames">
+    <meta name="description" content="Institution access to magic.">
+    <!-- <link href="./img/favicon.ico" rel="icon" type="image/x-icon"> TODO -->
+    <link rel="stylesheet" href="./styles/stylesheet.css?v=0.0.1">
+    <title>INSTITUTIONAL ACCESS</title>
 </head>
+
 <body>
-<div class="navbar sticky">
+    <div class="navbar sticky">
         <ul class="ul">
             <li class="ulli"><a class="ullia" href="about.html">ABOUT</a></li>
-            <li class="ulli"><a class="ullia"href="index.html">HOME</a></li>
-            <li class="ulli"><a class="ullia"href="patients.html">PATIENTS</a></li>
-            <li class="ulli"><a class="ullia"href="register.html">REGISTER</a></li>
+            <li class="ulli"><a class="ullia" href="index.html">HOME</a></li>
+            <li class="ulli"><a class="ullia" href="patients.html">PATIENTS</a></li>
+            <li class="ulli"><a class="ullia" href="register.html">REGISTER</a></li>
+            <li class="ulli log-out"><button id="log-out" type="button" onclick="removeCookie()">Log out</button></li>
         </ul>
-</div>
-<div id="user-input">
-    <form>
-        <h1 class="title">Institution login</h1>
-        <input class="input" type="text" id="username" name="username" placeholder="Username">
-        <input class="input" type="password" id="password" name="password" placeholder="Password">
-        <input class="input" type="submit" name="submit" value="Login" onClick = "authenticate();return false;">
-    </form>
-</div>
+    </div>
+    <div id="user-input">
+        <form>
+            <h1 class="title">Institution login</h1>
+            <input type="text" id="username" name="username" placeholder="Username">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <input type="submit" name="submit" value="Login" onclick="authenticate();return false;">
+        </form>
+    </div>
 
-<div id="iframe"></div>
+    <div id="iframe"></div>
 
-<script src="./js/secrets.js?v=0.0.2"></script>
-<script src="./js/include.js?v=0.0.1"></script>
+    <script src="./js/secrets.js?v=0.0.1"></script>
+    <script src="./js/include.js?v=0.0.1"></script>
 </body>
+
 </html>
