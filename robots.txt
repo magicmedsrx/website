@@ -1,0 +1,5 @@
+user-agent: *
+Disallow: /pdf
+Disallow: /js
+
+Disallow: /institution.html
