@@ -234,14 +234,18 @@ a:hover{
     border: none;
     width: 100%;
     margin-top: var(--nav-height);
-    height: calc(100vh - 124px);
+    height: calc(100vh - 2px);
+    padding-top: 6vh;
+    background-color: #efdecd;
 }
 
 iframe {
     border: none;
     width: 100%;
     margin-top: var(--nav-height);
-    height: calc(100vh - 124px);
+    height: calc(100vh - 2px);
+    padding-top: 10vh;
+    background-color: #efdecd;
 }
 
 #user-input {
