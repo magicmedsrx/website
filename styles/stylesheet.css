@@ -5,9 +5,11 @@
     --almostWhite: #f5f5f5;
     --almostBlack: #333;
 
+    --fs-700: 2.5rem;
     --fs-600: 1.5rem;
     --fs-500: 1.25rem;
     --fs-400: 1rem;
+    --fs-300: 0.5rem;
 
     --radius: 30px;
 }
@@ -151,4 +153,30 @@ footer {
     font-size: var(--fs-400);
     text-align: center;
     margin: 20px;
+}
+.hipaa {
+    text-align: left;
+    color: #428589;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 100px;
+}
+.justifytext{
+    text-align: justify;
+    color: var(--darkBlue);
+    font-size: var(--fs-500);
+}
+.centertext{
+    text-align: center;
+    color: var(--darkBlue);
+    font-size: var(--fs-700);
+}
+.me {
+    width: 400x;
+    height: 500px;
+    float: left;
+    padding-right: 10px;
+    border: 1px ;
+    border-color: var(--backGroundColor);
+    border-radius: 15%;
 }
