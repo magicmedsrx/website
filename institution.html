@@ -14,20 +14,19 @@
 </head>
 
 <body>
-    <nav class="navbar sticky">
-        <ul class="main-nav">
-            <li class="individuallink"><a class="links" href="index.html">HOME</a></li>
-            <li class="individuallink"><a class="links" href="about.html">ABOUT</a></li>
-            <li class="individuallink"><a class="links" href="patients.html">PATIENTS</a></li>
-            <li class="individuallink"><a class="links" href="register.html">REGISTER</a></li>
-        </ul>
+      <nav>
+        <a class="active" href="/">HOME</a>
+        <a href="/about.html">ABOUT</a>
+        <a href="/institution.html">INSTITUTIONS</a>
+        <a href="/patients.html">PATIENTS</a>
+        <a href="/register.html">REGISTER</a>
     </nav>
     <div id="user-input">
         <form>
             <h1 class="title">Institution login</h1>
-            <input class="login" type="text" id="username" name="username" placeholder="Username">
-            <input class="login" type="password" id="password" name="password" placeholder="Password">
-            <input class="login" type="submit" name="submit" value="Login" onclick="authenticate();return false;">
+            <input type="text" id="username" name="username" placeholder="Username">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <input type="submit" name="submit" value="Login" onclick="authenticate();return false;">
         </form>
     </div>
 
