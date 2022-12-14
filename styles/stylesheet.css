@@ -180,3 +180,38 @@ footer {
     border-color: var(--backGroundColor);
     border-radius: 15%;
 }
+iframe {
+    border: none;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 1vh;
+}
+#user-input {
+    display: flex;
+    align-items: center;
+    margin-top: var(--nav-height);
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+#iframe {
+    border: none;
+    width: 100vw;
+    margin-top: var(--nav-height);
+    height: 100vh
+}
+
+#log-out {
+    display: none;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    color: #428589;
+}
+
+input {
+    color: #428589;
+    text-align: center;
+}
