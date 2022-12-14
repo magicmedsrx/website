@@ -31,7 +31,7 @@ function removeCookie() {
 function checkCookie() {
     if (getCookie('Authentication') == 'true') {
         document.getElementById("user-input").setAttribute('style', 'display: none');
-        document.getElementById("iframe").innerHTML = '<iframe id="iframe" src="./pdf/institution/' + INSTITUTION_PDF_NAME + '#toolbar=0"></iframe>';
+        document.getElementById("iframeContainer").innerHTML = '<iframe id="iframe" src="./pdf/institution/' + INSTITUTION_PDF_NAME + '#toolbar=0"></iframe>';
         document.getElementById("log-out").setAttribute('style', 'display: block');
     }
 }
