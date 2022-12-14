@@ -28,7 +28,6 @@ body {
     background-color: var(--backGroundColor);
     font-family: 'Heebo', sans-serif;
 }
-
 nav {
     background-color: var(--darkBlue);
     border-bottom: 2px solid var(--darkBlue);
@@ -42,11 +41,6 @@ nav {
 
 nav > a {
     color: var(--backGroundColor);
-    text-decoration: none;
-    margin: 0 5px;
-    font-size: var(--fs-400);
-    padding: 10px;
-}
 
 .active {
     color: var(--backGroundColor);
@@ -106,7 +100,6 @@ nav>a:hover {
     width: clamp(100px, calc(100% - 5px), 1000px);
     height: 30vh;
 }
-
 @media (min-width: 600px) {
 .video {
         height: 50vh;
@@ -209,6 +202,12 @@ iframe {
 .title {
     text-align: center;
     color: #428589;
+    transform: translate(20vw);
+    font-size: 40px;
+}
+.login{
+    transform: translate(20vw);
+    font-size: 40px;
 }
 
 input {
