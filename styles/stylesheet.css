@@ -1,14 +1,140 @@
-body {
-    background-color: #efdecd;
-    opacity: 0.9;
-    margin-bottom: 10px;
-    font-family: 'Heebo', sans-serif;
-    font-size: 20px;
-    margin: auto 0;
+:root {
+    --backGroundColor: #efdecd;
+    --lightBlue: #94cffb;
+    --darkBlue: #428589;
+    --almostWhite: #f5f5f5;
+    --almostBlack: #333;
+
+    --fs-700: 2.5rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+    --fs-300: 0.5rem;
+
+    --radius: 30px;
 }
 
-p {
-    text-align: center;
+@media (min-width: 600px) {
+    :root {
+        --fs-600: 2.25rem;
+        --fs-500: 2rem;
+        --fs-400: 1.5rem;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--backGroundColor);
+    font-family: 'Heebo', sans-serif;
+}
+nav {
+    background-color: var(--darkBlue);
+    border-bottom: 2px solid var(--darkBlue);
+    display: flex;
+    justify-content: center;
+    /* I would only do this if you are set on having it be sticky */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav > a {
+    color: var(--backGroundColor);
+
+.active {
+    color: var(--backGroundColor);
+    background-color: var(--darkBlue);
+}
+
+nav>a:hover {
+    background-color: #111;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: clamp(100px, 100%, 600px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 0 5px;
+    width: clamp(100px, calc(100% - 10px), 1000px);
+}
+
+.indexInfo {
+    padding: 0 10px;
+    font-size: var(--fs-400);
+    background-color: var(--darkBlue);
+    color: var(--backGroundColor);
+    border-radius: var(--radius);
+}
+
+.indexInfo > h3 {
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+
+.indexInfo > ol {
+    padding: 20px;
+}
+
+@media (min-width: 600px) {
+    .indexInfo>ol {
+            padding: 30px;
+        }
+}
+
+.video {
+    margin-top: 30px;
+    border: 3px solid var(--darkBlue);
+    border-radius: var(--radius);
+    width: clamp(100px, calc(100% - 5px), 1000px);
+    height: 30vh;
+}
+@media (min-width: 600px) {
+.video {
+        height: 50vh;
+    }
+}
+
+.guideInfoContainer {
+    position: relative;
+    margin-top: 20px;
+}
+
+.pillImg{
+    width: clamp(100px, calc(100% - 5px), 1000px);
+    opacity: 0.75;
+    border: 3px solid var(--darkBlue);
+    border-radius: var(--radius);
+}
+
+.guideInfoText {
+    position: absolute;
+    top: 0;
+    padding: 0 10px;
+    /* color: var(--almostWhite); */
+    font-size: var(--fs-400);
+}
+
+.drugImgContainer {
+    background-color: #fff;
+    border-top: 3px solid var(--darkBlue);
+    padding: 10px;
+}
+
+/* center images */
+.drugImgContainer > img {
+    width: clamp(100px, 250px, 400px);
 }
 
 address {
@@ -16,238 +142,43 @@ address {
 }
 
 footer {
-    color: #428589;
-    font-size: 20px;
+    color: var(--darkBlue);
+    font-size: var(--fs-400);
     text-align: center;
+    margin: 20px;
 }
-.navbar{
-    cursor: pointer;
-    font-size: 1.0em;
-    background-color: #428589;
-    width: 100vw;
-    transition: all 0.3s linear;
-    position: fixed;
-}
-.main-nav {
-    display: flex;
-    list-style: none;
-    font-size: 2.0em;
-    margin: 0;
-    justify-content: center;
-}
-.individuallink {
-    padding: 30px;
-}
-
-.links {
-    text-decoration: none;
+.hipaa {
+    text-align: left;
     color: #428589;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #efdecd;
-    padding-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 100px;
 }
-
-a:hover{
-    transform: 1s scale(1.2em);
+.justifytext{
+    text-align: justify;
+    color: var(--darkBlue);
+    font-size: var(--fs-500);
 }
-
-.flexbox-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.video {
-    border: 5px solid #428589;
-    border-radius: 5%;
-    margin-right: auto;
-    margin-left: auto;
-    height: 65vh;
-    width: 65vw;
-    margin-top: 10px;
-}
-
-.flexbox-item-1 {
-    height: 15%vh;
-    background-color: #efdecd;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.flexbox-item-2 {
-    background-color: #efdecd;
+.centertext{
     text-align: center;
-    border-radius: 6%;
-    height: 65vh;
-    width: 75vw;
+    color: var(--darkBlue);
+    font-size: var(--fs-700);
 }
-
-.flexbox-item-3 {
-   position: relative;
-    width: 50vw;
-    background-color: rgb(111, 196, 236);
-    max-height: 594px;
-    text-align: justify;
-    border-radius: 6%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-.flexbox-item-4 {
-    width: 100vw;
-    background-color: #428589;
-    color: #efdecd;
-    font-size: 28px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #428589;
-    border-top: 4px solid #efdecd;
-    border-bottom: 4px solid #efdecd;
-}
-
-.flexbox-item-5 {
-    width: 960px;
-    min-height: 300px;
-    max-height: 400px;
-    background-color: #efdecd;
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 6%;
-}
-
-.ninesixty {
-    width: 960px;
-}
-
-.elevenhundred {
-    width: 48vw;
-    position: absolute;
-    top: 1vh;
-    left: 0vw;
-    text-align: justify;
-    padding-left: 10px;
-    border: 2px;
-    border-radius: 6%;
-    color: #fff;
-}
-.elevenhundred1{
-    width: 48vw;
-    position: absolute;
-    top: 150px;
-    left: 2vw;
-    text-align: justify;
-    padding-left: 10px;
-    border: 2px;
-    border-radius: 6%;
-    color: #fff;
-}
-
-.pills {
-    border-radius: 6%;
-    width:50vw;
-    max-height: 595px;
-    border: 3px solid #428589;
-}
-
-.moveup {
-    width: 48vw;
-    position: absolute;
-    bottom: 150px;
-    display: block;
-    text-align: justify;
-    padding-left: 30px;
-    color: #fff;
-}
-.moveup1{
-    width: 48vw;
-    position: absolute;
-    bottom: 65px;
-    display: block;
-    text-align: justify;
-    padding-left: 30px;
-    color: #fff;
-}
-
-.block {
-    list-style: circle;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 5px;
-    background-color: #fff;
-    border-top: 4px solid #428589;
-    border-bottom: 4px solid #428589;
-    margin-left: -1px;
-    margin-right: -1px;
-    width: 100vw;
-}
-
-.grid-item {
-    padding: 15px;
-    cursor: pointer;
-    font-size: 1.2em;
-    transition: all 0.3s linear;
-    align-items: center;
-    align-content: center;
-    background-color: #fff;
-}
-
-.drugPic {
-    max-width: 280px;
-}
-
-.logo {
-    width: 45%;
-    height: 400px;
-}
-
-.googleForm {
-    display: flex;
-    align-items: left;
-    margin-top: 0px;
-    float: left;
-    width: 65vw;
-}
-
-.about {
-    text-align: justify;
-    font-size: 25px;
-    color: #428589;
-}
-
 .me {
-    width: 220px;
-    height: 400px;
+    width: 400x;
+    height: 500px;
     float: left;
     padding-right: 10px;
+    border: 1px ;
+    border-color: var(--backGroundColor);
+    border-radius: 15%;
 }
-
-.header {
-    color: #428589;
-}
-
-#iframe {
-    border: none;
-    width: 100%;
-    margin-top: var(--nav-height);
-    height: calc(100vh - 2px);
-    padding-top: 6vh;
-    background-color: #efdecd;
-}
-
 iframe {
     border: none;
-    width: 100%;
-    margin-top: var(--nav-height);
-    height: calc(100vh - 2px);
-    padding-top: 10vh;
-    background-color: #efdecd;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 1vh;
 }
-
 #user-input {
     display: flex;
     align-items: center;
@@ -255,6 +186,12 @@ iframe {
     border-radius: 20px;
     padding-left: 20px;
     margin-left: 20px;
+}
+#iframe {
+    border: none;
+    width: 100vw;
+    margin-top: var(--nav-height);
+    height: 100vh
 }
 
 #log-out {
@@ -276,39 +213,4 @@ iframe {
 input {
     color: #428589;
     text-align: center;
-}
-
-.hipaa {
-    text-align: left;
-    color: #428589;
-}
-@media screen  and (max-width: 360px;){
-    body,p,a,iframe,video{
-        font-size: 16px;
-}
-}
-@media screen (min-width: 375px;){
-    body,p,a,iframe,video{
-        font-size: 18px;
-}
-}
-@media screen (min-width: 411px;){
-    body,p,a,iframe,video{
-        font-size: 20px;
-}
-}
-@media screen (min-width: 768px;){
-    body,p,a,iframe,video{
-        font-size: 24px;
-}
-}
-@media screen (min-width: 1366px;){
-    body,p,a,iframe,video{
-        font-size: 28px;
-}
-}
-@media screen (min-width: 1920px;){
-    body,p,a,iframe,video{
-        font-size: 32px;
-}
 }

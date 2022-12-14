@@ -9,67 +9,63 @@
     <meta name="description" content="Register for counseling.">
     <!-- <link href="./img/favicon.ico" rel="icon" type="image/x-icon"> TODO -->
     <link rel="stylesheet" href="./styles/stylesheet.css?v=0.0.1">
-    <title>MAGIC MEDS RX</title>
+    <title>Magic Meds RX</title>
 </head>
 
 <body>
-    <nav class="navbar sticky">
-        <ul class="main-nav">
-            <li class="individuallink"><a class="links" href="about.html">ABOUT</a></li>
-            <li class="individuallink"><a class="links" href="institution.html">INSTITUTIONS</a></li>
-            <li class="individuallink"><a class="links" href="patients.html">PATIENTS</a></li>
-            <li class="individuallink"><a class="links" href="register.html">REGISTER</a></li>
-        </ul>
+    <nav>
+        <a class="active" href="/">HOME</a>
+        <a href="/about.html">ABOUT</a>
+        <a href="/institution.html">INSTITUTIONS</a>
+        <a href="/patients.html">PATIENTS</a>
+        <a href="/register.html">REGISTER</a>
     </nav>
-    <div class="flexbox-container">
-        <div class="flexbox-item-1">
-            <p class="ninesixty"><img class="logo" src="./img/logo.jpg" loading="lazy"></p>
+
+    <div class="container">
+        <img class="center logo" src="./img/logo.jpg" loading="lazy">
+
+        <div class="indexInfo center">
+            <h3>Steps to getting your brand name prescription medicine(s) <strong>FREE</strong> for the year:</h3>
+            <ol>
+                <li>Find your Brand name medicine in the M.A.G.I.C. Guide under the PATIENTS link</li>
+                <li>Register so we know you need help!</li>
+                <li>Await a call from a M.A.G.I.C. MEDS representative to help you the rest of the way!</li>
+                <li>ONLY if approved for FREE medicine for the year, pay a $100 annual fee</li>
+            </ol>
         </div>
-        <div class="flexbox-item-4">
-            <p class="elevenhundred1">
-                <p><u>Steps to getting your brand name prescription medicine(s) <strong>FREE</strong> for the year:</u>
-                    <ol>
-                        <li>Find your Brand name medicine in the M.A.G.I.C. Guide under the PATIENTS link</li>
-                        <li>Register so we know you need help!</li>
-                        <li>Await a call from a M.A.G.I.C. Meds representative to help you the rest of the way!</li>
-                        <li>ONLY if approved for FREE medicine for the year, pay a $100 annual fee</li>
-                    </ol>
-                </p>
-            </p>
-        </div>
-        <div class="flexbox-item-2">
-            <iframe class="video" width="65vw" height="65vh" src="https://www.youtube.com/embed/PW_h1D-1W84">How to use M.A.G.I.C.</iframe>
-        </div><br>
-        <div class="flexbox-item-3">
-            <img class="pills" src="./img/pills.jpg" loading="lazy">
-            <p class="elevenhundred">This assistance guide is intended for use by persons who have financial constraints related to ANY of their brand name medications. The programs are through the manufacturer of the drug and sent to your home or your provider's office for FREE for an entire year. Each program that a person may be eligible for requires the following information for eligibility:
-                <ol class="elevenhundred1">
+
+        <iframe class="video" src="https://www.youtube.com/embed/PW_h1D-1W84"></iframe>
+
+        <div class="guideInfoContainer">
+            <img class="pillImg" src="./img/pills.jpg" loading="lazy">
+            <div class="guideInfoText">
+                <p>M.A.G.I.C. is intended for use by persons who have trouble affording ANY of their brand name medications. MAGIC includes programs offered for > 621 medications through the drug manufacturers where your medication is sent to your home or your provider's office for FREE for an entire year. Each program that a person may be eligible for requires the following information for eligibility:</p>
+                <ol>
                     <li>Annual Income</li>
                     <li>Number of persons in household</li>
-                </ol><br>
-            </p> 
-            <p> 
-                <u class="moveup">Your insurance status must be one of the following to qualify:</u><br>
-                <ul class="moveup1">
-                    <li>Medicare (A,B,D and Advantage plans)</li>
+                    <li>Insurance status</li>
+                </ol>
+                <u>Prescription insurance coverage accepted:</u>
+                <ol>
+                    <li>Medicare (A, B, D and Advantage plans)</li>
                     <li>Uninsured</li>
-                </ul>
-            </p>
+                </ol>
+            </div>
         </div>
     </div>
-    <div class="grid-container">
-        <div class="grid-item grid-item-1"><img class="drugPic" src="./img/eliquis.png" loading="lazy"></div>
-        <div class="grid-item grid-item-2"><img class="drugPic" src="./img/entresto.png" loading="lazy"></div>
-        <div class="grid-item grid-item-3"><img class="drugPic" src="./img/rybelsus.png" loading="lazy"></div>
-        <div class="grid-item grid-item-4"><img class="drugPic" src="./img/lantus.png" loading="lazy"></div>
-        <div class="grid-item grid-item-5"><img class="drugPic" src="./img/ozempic.jpeg" loading="lazy"></div>
-        <div class="grid-item grid-item-6"><img class="drugPic" src="./img/trulicity.png" loading="lazy"></div>
-        <div class="grid-item grid-item-7"><img class="drugPic" src="./img/farxiga.png" loading="lazy"></div>
-        <div class="grid-item grid-item-8"><img class="drugPic" src="./img/tresiba.jpeg" loading="lazy"></div>
-        <div class="grid-item grid-item-9"><img class="drugPic" src="./img/victoza.jpeg" loading="lazy"></div>
-        <div class="grid-item grid-item-10"><img class="drugPic" src="./img/toujeo.png" loading="lazy"></div>
-        <div class="grid-item grid-item-11"><img class="drugPic" src="./img/humalog.png" loading="lazy"></div>
-        <div class="grid-item grid-item-12"><img class="drugPic" src="./img/novolog.png" loading="lazy"></div>
+    <div class="drugImgContainer">
+        <img src="./img/eliquis.png" loading="lazy">
+        <img src="./img/entresto.png" loading="lazy">
+        <img src="./img/rybelsus.png" loading="lazy">
+        <img src="./img/lantus.png" loading="lazy">
+        <img src="./img/ozempic.jpeg" loading="lazy">
+        <img src="./img/trulicity.png" loading="lazy">
+        <img src="./img/farxiga.png" loading="lazy">
+        <img src="./img/tresiba.jpeg" loading="lazy">
+        <img src="./img/victoza.jpeg" loading="lazy">
+        <img src="./img/toujeo.png" loading="lazy">
+        <img src="./img/humalog.png" loading="lazy">
+        <img src="./img/novolog.png" loading="lazy">
     </div>
 </body>
 <footer>
