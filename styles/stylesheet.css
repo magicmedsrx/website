@@ -24,10 +24,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--backGroundColor);
+    font-family: 'Heebo', sans-serif;
 }
 
 nav {
-    background-color: var(--lightBlue);
+    background-color: var(--darkBlue);
     border-bottom: 2px solid var(--darkBlue);
     display: flex;
     justify-content: center;
@@ -38,14 +39,15 @@ nav {
 }
 
 nav > a {
-    color: var(--darkBlue);
+    color: var(--backGroundColor);
     text-decoration: none;
     margin: 0 5px;
     font-size: var(--fs-400);
+    padding: 10px;
 }
 
 .active {
-    color: var(--almostWhite);
+    color: var(--backGroundColor);
     background-color: var(--darkBlue);
 }
 
@@ -76,7 +78,7 @@ nav>a:hover {
     padding: 0 10px;
     font-size: var(--fs-400);
     background-color: var(--darkBlue);
-    color: var(--almostWhite);
+    color: var(--backGroundColor);
     border-radius: var(--radius);
 }
 
