@@ -41,6 +41,7 @@ nav {
 
 nav > a {
     color: var(--backGroundColor);
+}
 
 .active {
     color: var(--backGroundColor);
