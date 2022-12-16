@@ -1,3 +1,4 @@
+/* if ANY changes are made in this file increment the version number in all html files, !important */
 :root {
     --backGroundColor: #efdecd;
     --lightBlue: #94cffb;
@@ -40,14 +41,16 @@ nav {
     width: 100%;
 }
 
-nav>a {
+nav>a,
+nav>div>a {
     color: var(--backGroundColor);
     text-decoration: none;
     margin: 0 10px;
     font-size: var(--fs-400);
 }
 
-nav>a:hover {
+nav>a:hover,
+nav>div>a:hover {
     background-color: #111;
 }
 
@@ -135,7 +138,7 @@ nav>a:hover {
 }
 
 /* center images */
-.drugImgContainer > img {
+.drugImgContainer>img {
     width: clamp(100px, 250px, 400px);
 }
 
@@ -190,7 +193,7 @@ footer {
 }
 
 /* Institution login */
-form > h1 {
+form>h1 {
     text-align: center;
     color: var(--darkBlue);
     font-size: var(--fs-500);
@@ -207,9 +210,7 @@ input {
     text-align: center;
 }
 
-
-.container > .hipaa{
+.container>.hipaa {
     margin-top: 60px;
-
 }
-
+/* if ANY changes are made in this file increment the version number in all html files, !important */
