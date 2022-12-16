@@ -20,20 +20,20 @@
         <a href="/institution.html">INSTITUTIONS</a>
         <div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
         <a href="/register.html">REGISTER</a>
-        <button id="log-out" type="button" onclick="removeCookie();">Log out</button>
+        <button id="logOut" type="button" onclick="removeCookie();">Log out</button>
     </nav>
-    <div id="user-input">
+    <div id="userInput">
         <form class="center">
             <h1>Institution login</h1>
-            <input class="center login" type="text" id="username" name="username" placeholder="Username">
-            <input class="center login" type="password" id="password" name="password" placeholder="Password">
-            <input class="center login" type="submit" name="submit" value="Login" onclick="validateCredentials();return false;">
+            <input class="center" type="text" id="username" name="username" placeholder="Username">
+            <input class="center" type="password" id="password" name="password" placeholder="Password">
+            <input class="center" type="submit" name="submit" value="Login" onclick="validateCredentials();return false;">
         </form>
     </div>
 
     <div id="iframeContainer"></div>
 
     <script src="./js/secrets.js?v=0.0.1"></script>
-    <script src="./js/include.js?v=0.0.5" onload="checkMobile();checkCookie();"></script>
+    <script src="./js/include.js?v=0.0.6" onload="checkMobile();checkCookie();"></script>
 </body>
 </html>

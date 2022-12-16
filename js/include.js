@@ -38,7 +38,7 @@ function removeCookie() {
 
 function checkCookie(authenticated=false) {
     if (getCookie('Authentication') == 'true' || authenticated) {
-        document.getElementById("user-input").setAttribute('style', 'display: none');
+        document.getElementById("userInput").setAttribute('style', 'display: none');
 
         if (IS_MOBILE) {
             window.location = "./pdf/institution/" + INSTITUTION_PDF_NAME + "#toolbar=0";
@@ -46,7 +46,7 @@ function checkCookie(authenticated=false) {
             document.getElementById("iframeContainer").innerHTML = '<iframe id="iframe" src="./pdf/institution/' + INSTITUTION_PDF_NAME + '#toolbar=0"></iframe>';
         }
 
-        document.getElementById("log-out").setAttribute('style', 'display: block');
+        document.getElementById("logOut").setAttribute('style', 'display: block');
     }
 }
 
@@ -98,4 +98,12 @@ function showElement(element) {
 
 function hideElement(element) {
     element.style.display = "none";
+}
+
+function setPillImgHeight() {
+    const reference = document.querySelector('.guideInfoText');
+    const  target = document.querySelector('.pillImg');
+    target.setAttribute('height', reference.offsetHeight);
+    target.setAttribute('height', reference.offsetHeight);
+    console.log(reference.offsetHeight);
 }
