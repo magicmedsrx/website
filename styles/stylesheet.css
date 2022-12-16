@@ -250,6 +250,21 @@ input {
 }
 
 
+/* register.html */
+.registrationForm{
+    width: 97vw;
+    height: 2570px;
+    border: 3px solid var(--darkBlue);
+    border-radius: var(--radius);
+}
+
+@media only screen and (min-width: 600px) {
+    .registrationForm {
+        width: 700px;
+        height: 2400px;
+    }
+}
+
 /* hipaa.html */
 .container>.hipaa {
     margin-top: 60px;
