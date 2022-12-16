@@ -1,6 +1,6 @@
 // when updating the pdf names increment the version number in institution.html, important!
-const INSTITUTION_PDF_NAME = "MAGICFULL 12.10.22.pdf";
-const PATIENT_PDF_NAME = "MAGICSHORT 12.10.22.pdf";
+const INSTITUTION_PDF_NAME = "MAGICFULL 12.16.22.pdf";
+const PATIENT_PDF_NAME = "MAGICSHORT 12.16.22.pdf";
 
 let IS_MOBILE = false;
 
