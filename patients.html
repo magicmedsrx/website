@@ -9,7 +9,7 @@
     <meta name="author" content="Kyle Ames">
     <meta name="description" content="Patient access to magic.">
     <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/stylesheet.css?v=0.0.3">
+    <link rel="stylesheet" href="./styles/stylesheet.css?v=0.0.4">
     <title>PATIENTS</title>
 </head>
 
@@ -18,11 +18,13 @@
         <a href="/">HOME</a>
         <a href="/about.html">ABOUT</a>
         <a href="/institution.html">INSTITUTIONS</a>
-        <a href="/patients.html">PATIENTS</a>
+        <div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
         <a href="/register.html">REGISTER</a>
     </nav>
     <div>
         <iframe class="iframe" src="./pdf/patient/MAGICSHORT 12.10.22.pdf#toolbar=0"></iframe>
     </div>
+
+    <script src="./js/include.js?v=0.0.5" onload="checkMobile();"></script>
 </body>
 </html>

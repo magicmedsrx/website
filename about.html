@@ -9,14 +9,14 @@
     <meta name="author" content="Kyle Ames">
     <meta name="description" content="About MAGIC MEDS RX.">
     <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/stylesheet.css?v=0.0.3">
+    <link rel="stylesheet" href="./styles/stylesheet.css?v=0.0.4">
     <title>MAGIC MEDS RX</title>
 </head>
 <nav>
     <a href="/">HOME</a>
     <a href="/about.html">ABOUT</a>
     <a href="/institution.html">INSTITUTIONS</a>
-    <a href="/patients.html">PATIENTS</a>
+    <div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
     <a href="/register.html">REGISTER</a>
 </nav>
 
@@ -81,16 +81,18 @@
             medications. M.A.G.I.C. is designed that ANYONE should be able to use the system and least know whether
             or not they qualify for a PAP program.</p>
     </div>
-    <footer>
-        Further Questions?
-        <address>
-            <strong>Email: </strong>
-            <a href="mailto:MagicMedsRx@gmail.com" target="_top">MagicMedsRx@gmail.com</a>
-            or <strong>Phone:</strong>
-            <a href="tel:+18434334111">843-433-4111</a>
-        </address><br>
-        <a href="hipaa.html">HIPAA Statement</a>
-    </footer>
+
+    <script src="./js/include.js?v=0.0.5" onload="checkMobile();"></script>
 </body>
 
+<footer>
+    Further Questions?
+    <address>
+        <strong>Email: </strong>
+        <a href="mailto:MagicMedsRx@gmail.com" target="_top">MagicMedsRx@gmail.com</a>
+        or <strong>Phone:</strong>
+        <a href="tel:+18434334111">843-433-4111</a>
+    </address><br>
+    <a href="hipaa.html">HIPAA Statement</a>
+</footer>
 </html>

@@ -9,7 +9,7 @@
     <meta name="author" content="Kyle Ames">
     <meta name="description" content="Institution access to magic.">
     <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/stylesheet.css?v=0.0.3">
+    <link rel="stylesheet" href="./styles/stylesheet.css?v=0.0.4">
     <title>INSTITUTIONAL ACCESS</title>
 </head>
 
@@ -18,22 +18,22 @@
         <a href="/">HOME</a>
         <a href="/about.html">ABOUT</a>
         <a href="/institution.html">INSTITUTIONS</a>
-        <a href="/patients.html">PATIENTS</a>
+        <div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
         <a href="/register.html">REGISTER</a>
-        <button id="log-out" type="button" onclick="removeCookie()">Log out</button>
+        <button id="log-out" type="button" onclick="removeCookie();">Log out</button>
     </nav>
     <div id="user-input">
         <form class="center">
             <h1>Institution login</h1>
             <input class="center login" type="text" id="username" name="username" placeholder="Username">
             <input class="center login" type="password" id="password" name="password" placeholder="Password">
-            <input class="center login" type="submit" name="submit" value="Login" onclick="authenticate();return false;">
+            <input class="center login" type="submit" name="submit" value="Login" onclick="validateCredentials();return false;">
         </form>
     </div>
 
     <div id="iframeContainer"></div>
 
     <script src="./js/secrets.js?v=0.0.1"></script>
-    <script src="./js/include.js?v=0.0.4"></script>
+    <script src="./js/include.js?v=0.0.5" onload="checkMobile();checkCookie();"></script>
 </body>
 </html>
