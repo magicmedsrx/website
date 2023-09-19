@@ -4,7 +4,6 @@ const PATIENT_PDF_NAME = "MAGICSHORT05.22.23.pdf";
 
 let IS_MOBILE = false;
 
-
 function getCookie(cookieName) {
     const name = cookieName + "=";
     const decodedCookie = decodeURIComponent(document.cookie);
