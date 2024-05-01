@@ -3,4 +3,5 @@ const CREDENTIALS = [
     ['McLeod', 'MHmma737222022'],
     ['HopeHealth', 'HHPAPaccess2024'],
     ['TTCPatientAssist', 'ClinicPA2024'],
+    ['SMH','MedPAP'],
 ];
