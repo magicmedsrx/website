@@ -166,3 +166,34 @@ function mkNavBar() {
 		navbar.appendChild(a);
 	});
 }
+
+async function loadPDF() {
+	const params = new URLSearchParams(document.location.search);
+	const fileName = params.get('file');
+	const iframeContainer = document.getElementById('iframeContainer');
+
+	const displayError = (message) => {
+		console.error(message);
+		const error = document.createElement('h1');
+		error.classList.add('pdfError');
+		error.innerHTML = `Error: ${message}`;
+		iframeContainer.appendChild(error);
+	};
+
+	if (!fileName) {
+		return displayError('No file specified.');
+	}
+
+	try {
+		const response = await fetch(fileName, { method: 'HEAD' });
+		if (!response.ok) {
+			return displayError('Specified file does not exist.');
+		}
+	} catch (err) {
+		return displayError(`Unknown error: ${err.message}`);
+	}
+
+	const iframe = document.createElement('iframe');
+	iframe.src = `${fileName}#toolbar=0`;
+	iframeContainer.appendChild(iframe);
+}
