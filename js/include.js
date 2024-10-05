@@ -5,6 +5,8 @@ const PATIENT_PDF_NAME = 'MAGICSHORT05.22.23.pdf';
 const FL_MEDICARE_PART_D = 'placeholder.pdf';
 const FL_MEDICARE_ADVANTAGE = 'placeholder.pdf';
 
+const MEDICAID_PDF_NAME = 'medicaid_10_5_24.pdf';
+
 function getCookie(cookieName) {
 	const name = cookieName + '=';
 	const decodedCookie = decodeURIComponent(document.cookie);
@@ -136,7 +138,11 @@ function mkNavBar() {
 
 		{ href: '/register.html', text: 'REGISTER' },
 		{ href: '/medicare.html', text: 'MEDICARE' },
-		{ href: '/medicaid.html', text: 'MEDICAID' },
+		{
+			href: '/pdf/viewer.html?file=' + 'medicaid/' + MEDICAID_PDF_NAME,
+			text: 'MEDICAID',
+			mobile_href: './pdf/medicaid/' + MEDICAID_PDF_NAME + '#toolbar=0',
+		},
 		{ href: '/va.html', text: 'VA' },
 
 		{
