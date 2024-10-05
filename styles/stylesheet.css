@@ -40,22 +40,21 @@ nav {
 	justify-content: center;
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
+	top: 0;
 	width: 100%;
 	border-bottom: 2px solid #111;
 	z-index: 1;
 }
 
-nav > a,
-nav > div > a {
+nav > a {
 	color: var(--backGroundColor);
 	text-decoration: none;
 	margin: 0 10px;
 	font-size: var(--fs-400);
-	z-index: 23;
+	z-index: 1;
 }
 
-nav > a:hover,
-nav > div > a:hover {
+nav > a:hover {
 	background-color: #111;
 }
 
