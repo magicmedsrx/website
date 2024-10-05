@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<!-- © 2022 Kyle Ames. All rights reserved. -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Kyle Ames" />
+		<meta name="description" content="Institution access to magic." />
+		<link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="./styles/stylesheet.css?v=0.4.0" />
+		<title>INSTITUTIONAL ACCESS</title>
+	</head>
 
-<head>
-    <!-- © 2022 Kyle Ames. All rights reserved. -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Kyle Ames">
-    <meta name="description" content="Institution access to magic.">
-    <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/stylesheet.css?v=0.4.0">
-    <title>INSTITUTIONAL ACCESS</title>
-</head>
+	<body>
+		<nav>
+			<a href="/">HOME</a>
+			<a href="/about.html">ABOUT</a>
+			<a href="/institution.html">INSTITUTIONS</a>
+			<div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
+			<a href="/register.html">REGISTER</a>
+			<button id="logOut" type="button" onclick="removeCookie();">Log out</button>
+		</nav>
+		<a class="container" href="https://www.va.gov/formularyadvisor/">
+			<h3>VA formulary search</h3>
+		</a>
 
-<body>
-    <nav>
-        <a href="/">HOME</a>
-        <a href="/about.html">ABOUT</a>
-        <a href="/institution.html">INSTITUTIONS</a>
-        <div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
-        <a href="/register.html">REGISTER</a>
-        <button id="logOut" type="button" onclick="removeCookie();">Log out</button>
-    </nav>
-<a class="container" href="https://www.va.gov/formularyadvisor/"><h3>VA formulary search</h3></a>
-
-<div
-    class="container"><p>1.Select link for VA formulary search above</p>
-    <p>2.Type in name of your medication to see if covered on VA formulary</p>
-    <p>Use key below for VA formulary abbreviations</p>
-    <img class="VAformulary" src="img/vaformularyabbreviations.png" alt="">
-</div>
-</body>
+		<div class="container">
+			<p>1.Select link for VA formulary search above</p>
+			<p>2.Type in name of your medication to see if covered on VA formulary</p>
+			<p>Use key below for VA formulary abbreviations</p>
+			<img class="VAformulary" src="img/vaformularyabbreviations.png" alt="" />
+		</div>
+	</body>
 </html>
