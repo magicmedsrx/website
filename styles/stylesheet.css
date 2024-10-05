@@ -15,10 +15,6 @@
 	--fs-300: 0.5rem;
 
 	--radius: 30px;
-
-	--beta_banner: #ff0000;
-	--beta_banner_text: #fff;
-	--beta_banner_height: 50px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -270,24 +266,7 @@ input {
 	margin-top: 60px;
 }
 
-/* if ANY changes are made in this file increment the version number in all html files, !important */
-
-/* beta */
-
-.beta {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	font-size: var(--fs-600);
-	height: var(--beta_banner_height);
-	background-color: var(--beta_banner);
-	color: var(--beta_banner_text);
-	text-align: center;
-}
-
-nav {
-	top: var(--beta_banner_height);
-}
+/* medicare.html */
 .florida-image {
 	width: 35%;
 	height: 30%;
