@@ -259,13 +259,17 @@ input {
 }
 
 /* medicare.html */
-.florida-image {
+.floridaImage {
 	width: 35%;
 	height: 30%;
 	border-radius: 11%;
 }
 
-.VAformulary {
+.medicareStates {
+	padding-top: 7%;
+}
+
+.VAFormulary {
 	height: 15%;
 }
 
