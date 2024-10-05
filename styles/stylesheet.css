@@ -95,12 +95,14 @@ footer {
 	margin: auto;
 	padding: 0 5px;
 	width: clamp(100px, calc(100% - 10px), 1000px);
+	color: var(--darkBlue);
 }
 
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	color: var(--darkBlue);
 }
 
 .iframe {
@@ -194,14 +196,12 @@ footer {
 /* about.html */
 .justifyText {
 	text-align: justify;
-	color: var(--darkBlue);
 	font-size: var(--fs-500);
 	padding: 0 10px;
 }
 
 .centerTitle {
 	text-align: center;
-	color: var(--darkBlue);
 	font-size: var(--fs-700);
 }
 
@@ -234,13 +234,11 @@ footer {
 
 form > h1 {
 	text-align: center;
-	color: var(--darkBlue);
 	font-size: var(--fs-500);
 	margin-top: 50px;
 }
 
 input {
-	color: var(--darkBlue);
 	text-align: center;
 	font-size: var(--fs-500);
 	margin-top: 10px;
@@ -272,6 +270,9 @@ input {
 	height: 30%;
 	border-radius: 11%;
 }
+
 .VAformulary {
 	height: 15%;
 }
+
+/* if ANY changes are made in this file increment the version number in all html files, !important */
