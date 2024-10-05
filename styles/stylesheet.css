@@ -262,6 +262,7 @@ input {
 
 /* medicare.html */
 .floridaImage {
+	padding: 10px;
 	width: 35%;
 	height: 30%;
 	border-radius: var(--radius);
