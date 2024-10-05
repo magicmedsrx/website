@@ -13,14 +13,8 @@
 	</head>
 
 	<body>
-		<nav>
-			<a href="/">HOME</a>
-			<a href="/about.html">ABOUT</a>
-			<a href="/institution.html">INSTITUTIONS</a>
-			<div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
-			<a href="/register.html">REGISTER</a>
-			<button id="logOut" type="button" onclick="removeCookie();">Log out</button>
-		</nav>
+		<nav id="navContainer"></nav>
+
 		<a class="container" href="https://www.va.gov/formularyadvisor/">
 			<h3>VA formulary search</h3>
 		</a>
@@ -31,5 +25,7 @@
 			<p>Use key below for VA formulary abbreviations</p>
 			<img class="VAformulary" src="img/vaformularyabbreviations.png" alt="" />
 		</div>
+
+		<script src="../js/include.js?v=0.0.7" onload="mkNavBar();"></script>
 	</body>
 </html>
