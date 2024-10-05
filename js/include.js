@@ -154,7 +154,7 @@ function mkNavBar() {
 
 		const a = document.createElement('a');
 
-		if (isMobile()) {
+		if (isMobile() && link.mobile_href) {
 			a.setAttribute('href', link.mobile_href);
 		} else {
 			a.setAttribute('href', link.href);
