@@ -13,14 +13,7 @@
 	</head>
 
 	<body>
-		<nav>
-			<a href="/">HOME</a>
-			<a href="/about.html">ABOUT</a>
-			<a href="/institution.html">INSTITUTIONS</a>
-			<div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
-			<a href="/register.html">REGISTER</a>
-			<button id="logOut" type="button" onclick="removeCookie();">Log out</button>
-		</nav>
+		<nav id="navContainer"></nav>
 
 		<div class="container">
 			<div class="medicareStates">
@@ -41,6 +34,6 @@
 			</address>
 		</div>
 
-		<script src="./js/include.js?v=0.0.6" onload="checkMobile();checkCookie();"></script>
+		<script src="./js/include.js?v=0.0.6" onload="mkNavBar();checkCookie();"></script>
 	</body>
 </html>

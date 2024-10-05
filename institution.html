@@ -13,15 +13,8 @@
 	</head>
 
 	<body>
-		<nav>
-			<a href="/">HOME</a>
-			<a href="/about.html">ABOUT</a>
-			<a href="/institution.html">INSTITUTIONS</a>
-			<div id="mobilePDF"><a href="/patients.html">PATIENTS</a></div>
-			<a href="/register.html">REGISTER</a>
-			<a href="https://youtu.be/fY1GZmP2tQY" target="_blank">TRAINING</a>
-			<button id="logOut" type="button" onclick="removeCookie();">Log out</button>
-		</nav>
+		<nav id="navContainer"></nav>
+
 		<div id="userInput">
 			<form class="center">
 				<h1>Institution login</h1>
@@ -46,6 +39,6 @@
 		<div id="iframeContainer"></div>
 
 		<script src="./js/secrets.js?v=0.0.1"></script>
-		<script src="./js/include.js?v=0.0.6" onload="checkMobile();checkCookie();"></script>
+		<script src="./js/include.js?v=0.0.6" onload="mkNavBar();checkCookie();"></script>
 	</body>
 </html>

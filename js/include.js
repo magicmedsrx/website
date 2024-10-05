@@ -2,8 +2,6 @@
 const INSTITUTION_PDF_NAME = 'MAGICFULL09.07.24.pdf';
 const PATIENT_PDF_NAME = 'MAGICSHORT05.22.23.pdf';
 
-let IS_MOBILE = false;
-
 function getCookie(cookieName) {
 	const name = cookieName + '=';
 	const decodedCookie = decodeURIComponent(document.cookie);
@@ -43,7 +41,7 @@ function checkCookie(authenticated = false) {
 	if (getCookie('Authentication') == 'true' || authenticated) {
 		document.getElementById('userInput').setAttribute('style', 'display: none');
 
-		if (IS_MOBILE) {
+		if (isMobile()) {
 			window.location = './pdf/institution/' + INSTITUTION_PDF_NAME + '#toolbar=0';
 		} else {
 			document.getElementById('iframeContainer').innerHTML =
@@ -52,7 +50,14 @@ function checkCookie(authenticated = false) {
 				'#toolbar=0"></iframe>';
 		}
 
-		document.getElementById('logOut').setAttribute('style', 'display: block');
+		const logOut = document.createElement('button');
+		logOut.id = 'logOut';
+		logOut.type = 'button';
+		logOut.innerHTML = 'Log out';
+		logOut.onclick = removeCookie;
+		logOut.style = 'display: block';
+
+		document.getElementById('navContainer').appendChild(logOut);
 	}
 }
 
@@ -84,18 +89,16 @@ function validateCredentials() {
 	}
 }
 
-function checkMobile() {
+function isMobile() {
 	if (
 		/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(
 			navigator.userAgent
 		)
 	) {
-		IS_MOBILE = true;
-
-		let mobileElement = document.getElementById('mobilePDF');
-		mobileElement.innerHTML =
-			'<a href="./pdf/patient/' + PATIENT_PDF_NAME + '#toolbar=0">PATIENTS</a>';
+		return true;
 	}
+
+	return false;
 }
 
 function showElement(element) {
@@ -112,4 +115,54 @@ function setPillImgHeight() {
 	target.setAttribute('height', reference.offsetHeight);
 	target.setAttribute('height', reference.offsetHeight);
 	console.log(reference.offsetHeight);
+}
+
+function mkNavBar() {
+	const navbar = document.getElementById('navContainer');
+
+	const scope = window.location.pathname.split('/').pop().split('.')[0];
+
+	const links = [
+		{ href: '/', text: 'HOME' },
+		{ href: '/about.html', text: 'ABOUT' },
+		{ href: '/institution.html', text: 'INSTITUTIONS' },
+		{
+			href: '/pdf/viewer.html?file=' + 'patient/' + PATIENT_PDF_NAME,
+			text: 'PATIENTS',
+			mobile_href: './pdf/patient/' + PATIENT_PDF_NAME + '#toolbar=0',
+		},
+
+		{ href: '/register.html', text: 'REGISTER' },
+		{ href: '/medicare.html', text: 'MEDICARE' },
+		{ href: '/medicaid.html', text: 'MEDICAID' },
+		{ href: '/va.html', text: 'VA' },
+
+		{
+			href: 'https://youtu.be/fY1GZmP2tQY',
+			text: 'TRAINING',
+			target: '_blank',
+			scoped_to: 'institution',
+		},
+	];
+
+	links.forEach((link) => {
+		if (link.scoped_to && link.scoped_to !== scope) {
+			return;
+		}
+
+		const a = document.createElement('a');
+
+		if (isMobile()) {
+			a.setAttribute('href', link.mobile_href);
+		} else {
+			a.setAttribute('href', link.href);
+		}
+
+		if (link.target) {
+			a.setAttribute('target', link.target);
+		}
+
+		a.innerHTML = link.text;
+		navbar.appendChild(a);
+	});
 }
