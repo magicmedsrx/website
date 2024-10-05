@@ -2,6 +2,9 @@
 const INSTITUTION_PDF_NAME = 'MAGICFULL09.07.24.pdf';
 const PATIENT_PDF_NAME = 'MAGICSHORT05.22.23.pdf';
 
+const FL_MEDICARE_PART_D = 'placeholder.pdf';
+const FL_MEDICARE_ADVANTAGE = 'placeholder.pdf';
+
 function getCookie(cookieName) {
 	const name = cookieName + '=';
 	const decodedCookie = decodeURIComponent(document.cookie);
@@ -196,4 +199,21 @@ async function loadPDF() {
 	const iframe = document.createElement('iframe');
 	iframe.src = `${fileName}#toolbar=0`;
 	iframeContainer.appendChild(iframe);
+}
+
+function fillMedicareLinks() {
+	links = [
+		{ id: 'fl_medicarePartD', dir: 'medicare', pdf: FL_MEDICARE_PART_D },
+		{ id: 'fl_medicareAdvantage', dir: 'medicare', pdf: FL_MEDICARE_ADVANTAGE },
+	];
+
+	links.forEach((link) => {
+		const element = document.getElementById(link.id);
+
+		if (isMobile()) {
+			element.setAttribute('href', `./pdf/${link.dir}/${link.pdf}#toolbar=0`);
+		} else {
+			element.setAttribute('href', `./pdf/viewer.html?file=${link.dir}/${link.pdf}`);
+		}
+	});
 }
