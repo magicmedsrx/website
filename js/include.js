@@ -117,7 +117,6 @@ function setPillImgHeight() {
 	const target = document.querySelector('.pillImg');
 	target.setAttribute('height', reference.offsetHeight);
 	target.setAttribute('height', reference.offsetHeight);
-	console.log(reference.offsetHeight);
 }
 
 function mkNavBar() {
