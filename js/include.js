@@ -138,11 +138,7 @@ function mkNavBar() {
 
 		{ href: '/register.html', text: 'REGISTER' },
 		{ href: '/medicare.html', text: 'MEDICARE' },
-		{
-			href: '/pdf/viewer.html?file=' + 'medicaid/' + MEDICAID_PDF_NAME,
-			text: 'MEDICAID',
-			mobile_href: './pdf/medicaid/' + MEDICAID_PDF_NAME + '#toolbar=0',
-		},
+		{ href: '/medicaid.html', text: 'MEDICAID' },
 		{ href: '/va.html', text: 'VA' },
 
 		{
