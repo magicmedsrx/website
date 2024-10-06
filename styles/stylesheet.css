@@ -94,6 +94,12 @@ footer {
 	margin: 20px;
 }
 
+hr {
+	border: 1px solid var(--darkBlue);
+	width: clamp(100px, 20%, 90%);
+	margin: 5vh auto 20px auto;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -317,7 +323,13 @@ svg {
 
 #stateLinks {
 	color: var(--darkBlue);
-	justify-content: center;
+	font-size: var(--fs-400);
+}
+
+#stateName {
+	font-size: var(--fs-500);
+	padding: 0;
+	margin: 0;
 }
 
 #mapContainer {

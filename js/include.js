@@ -171,6 +171,29 @@ function mkNavBar() {
 	});
 }
 
+function mkFooter() {
+	const footer = document.getElementById('footerContainer');
+
+	footer.appendChild(document.createElement('hr'));
+
+	const furtherQuestions = document.createElement('p');
+	furtherQuestions.textContent = 'Further Questions?';
+	footer.appendChild(furtherQuestions);
+
+	const address = document.createElement('address');
+	address.innerHTML = `
+		<div><strong>Email:</strong> <a href="mailto:MagicMedsRx@gmail.com" target="_top">MagicMedsRx@gmail.com</a></div>
+	`;
+	footer.appendChild(address);
+
+	footer.appendChild(document.createElement('br'));
+
+	const hipaaLink = document.createElement('a');
+	hipaaLink.href = 'hipaa.html';
+	hipaaLink.textContent = 'HIPAA Statement';
+	footer.appendChild(hipaaLink);
+}
+
 async function loadPDF() {
 	const params = new URLSearchParams(document.location.search);
 	const fileName = params.get('file');
