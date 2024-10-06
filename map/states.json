@@ -12,7 +12,7 @@
     "name": "Vermont",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://dvha.vermont.gov/sites/dvha/files/documents/FINAL%20VERMONT%20PDL_Effective_7_05_24_V2.pdf"
       }
     ],
@@ -27,7 +27,7 @@
     "name": "Alaska",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://health.alaska.gov/dhcs/Documents/pdl/Documents/PDL_Effective-Date_20240601.pdf"
       }
     ],
@@ -42,7 +42,7 @@
     "name": "Maine",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.mainecarepdl.org/content/dam/ffs-medicare/me/pdl/pdlmainecriteria-AUG%202024.pdf"
       }
     ],
@@ -61,7 +61,7 @@
     "name": "New Hampshire",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://nh.magellanrx.com/documents/51139/68986/NHRx_PDL.pdf/8eb713b0-cc1d-7fd9-a0c3-12988cb1c1b7?t=1677610996864"
       }
     ],
@@ -76,7 +76,7 @@
     "name": "Washington",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.hca.wa.gov/assets/billers-and-providers/apple-health-preferred-drug-list.xlsx"
       }
     ],
@@ -91,7 +91,7 @@
     "name": "Montana",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://medicaidprovider.mt.gov/docs/pharmacy/PreferredDrugListMarch2024.pdf"
       }
     ],
@@ -106,7 +106,7 @@
     "name": "North Dakota",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://ndmedicaid.acentra.com/wp-content/uploads/sites/17/2024/05/NDPDL.pdf"
       }
     ],
@@ -121,7 +121,7 @@
     "name": "Minnesota",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://mn.gov/dhs/assets/preferred-drug-list-2024-08-01_tcm1053-638332.pdf#false"
       }
     ],
@@ -136,7 +136,7 @@
     "name": "Wisconsin",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.hca.wa.gov/assets/billers-and-providers/apple-health-preferred-drug-list.xlsx"
       }
     ],
@@ -151,7 +151,7 @@
     "name": "Michigan",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://michigan.magellanrx.com/provider/external/medicaid/mi/doc/en-us/MIRx_PDL.pdf"
       }
     ],
@@ -166,7 +166,7 @@
     "name": "New York",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://newyork.fhsc.com/downloads/providers/NYRx_PDP_PDL.pdf"
       }
     ],
@@ -185,7 +185,7 @@
     "name": "Massachusetts",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://mhdl.pharmacy.services.conduent.com/MHDL/pubdruglist.do"
       }
     ],
@@ -204,7 +204,7 @@
     "name": "Rhode Island",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://eohhs.ri.gov/sites/g/files/xkgbur226/files/2024-01/PDL%2001.17.2024.pdf"
       }
     ],
@@ -219,7 +219,7 @@
     "name": "Idaho",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=702&dbid=0&repo=PUBLIC-DOCUMENTS"
       }
     ],
@@ -234,7 +234,7 @@
     "name": "Wyoming",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://health.wyo.gov/wp-content/uploads/2024/02/PDL2.7.24.pdf"
       }
     ],
@@ -249,7 +249,7 @@
     "name": "South Dakota",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://prdgov-rxadmin.optum.com/rxadmin/SDM/Prior_authorization.html"
       }
     ],
@@ -267,7 +267,7 @@
     "name": "Iowa",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.iowamedicaidpdl.com/content/dam/ffs-medicare/ia/IowaWEBPDL_Oct2024_v6.pdf"
       }
     ],
@@ -282,7 +282,7 @@
     "name": "Illinois",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/sitecollectiondocuments/pdl01012024.pdf"
       }
     ],
@@ -297,7 +297,7 @@
     "name": "Indiana",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://prdgov-rxadmin.optum.com/rxadmin/INM/20240901_INM_SUPDL%20(2)_Final.pdf"
       }
     ],
@@ -312,7 +312,7 @@
     "name": "Ohio",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://dam.assets.ohio.gov/image/upload/medicaid.ohio.gov/PHM/drug-coverage/20241001_UPDL_v1_Approved.pdf"
       }
     ],
@@ -327,7 +327,7 @@
     "name": "Pennsylvania",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.papdl.com/content/dam/ffs-medicare/pa/pdl/Penn-Statewide-PDL-2024v10.pdf"
       }
     ],
@@ -346,7 +346,7 @@
     "name": "New Jersey",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://fm.formularynavigator.com/FBO/4/New_Jersey_PDL_English.pdf"
       }
     ],
@@ -365,7 +365,7 @@
     "name": "Connecticut",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.ctdssmap.com/CTPortal/Portals/0/StaticContent/Publications/CT_PDL_medicaid.pdf"
       }
     ],
@@ -380,7 +380,7 @@
     "name": "Oregon",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.oregon.gov/oha/HSD/OHP/Tools/PDL_2024_07_01_v1.pdf"
       }
     ],
@@ -395,7 +395,7 @@
     "name": "Nevada",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://fm.formularynavigator.com/FBO/4/Nevada_PDL_English.pdf"
       }
     ],
@@ -410,7 +410,7 @@
     "name": "Colorado",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://hcpf.colorado.gov/sites/hcpf/files/10-01-24%20PDL-V2.pdf"
       }
     ],
@@ -425,7 +425,7 @@
     "name": "Nebraska",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://nebraska.fhsc.com/downloads/PDL/NE_PDL-20240119.pdf"
       }
     ],
@@ -440,7 +440,7 @@
     "name": "Missouri",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://mydss.mo.gov/media/pdf/list-preferred-non-preferred-products"
       }
     ],
@@ -455,7 +455,7 @@
     "name": "Kentucky",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.chfs.ky.gov/agencies/dms/dpo/ppb/Documents/Kentucky%20Medicaid%20PDL%2001.01.2024_v2%20FINAL.pdf"
       }
     ],
@@ -470,7 +470,7 @@
     "name": "West Virgina",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://dhhr.wv.gov/bms/BMS%20Pharmacy/Documents/Preferred%20Drug%20List/2024/WV%20PDL%202024.Q4a%20draft%20v4.pdf"
       }
     ],
@@ -485,7 +485,7 @@
     "name": "Virgina",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.virginiamedicaidpharmacyservices.com/provider/external/medicaid/vamps/doc/en-us/VAmed-PDLquick-20241001.pdf"
       }
     ],
@@ -504,7 +504,7 @@
     "name": "Delaware",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://medicaidpublications.dhss.delaware.gov/docs/DesktopModules/Bring2mind/DMX/API/Entries/Download?Command=Core_Download&EntryId=940&language=en-US&PortalId=0&TabId=94"
       }
     ],
@@ -523,7 +523,7 @@
     "name": "Maryland",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://health.maryland.gov/mmcp/pap/docs/PDL/PDL-Effective-7.1.2024_Updated-8.15.2024.pdf"
       }
     ],
@@ -538,7 +538,7 @@
     "name": "California",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://medi-calrx.dhcs.ca.gov/cms/medicalrx/static-assets/documents/provider/forms-and-information/cdl/Medi-Cal_Rx_Contract_Drugs_List_FINAL.pdf"
       }
     ],
@@ -553,7 +553,7 @@
     "name": "Utah",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/members/ut/en-us/Medicaid/UtahMedicaidDrugList.pdf"
       }
     ],
@@ -568,7 +568,7 @@
     "name": "New Mexico",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.uhc.com/communityplan/assets/plandocuments/findadrug/new-mexico/NM-Medicaid-PDL.pdf"
       }
     ],
@@ -583,7 +583,7 @@
     "name": "Kansas",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.kdhe.ks.gov/DocumentCenter/View/420/Preferred-Drug-List-PDF?bidId="
       }
     ],
@@ -598,7 +598,7 @@
     "name": "Arkansas",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://ar.magellanrx.com/documents/268611/269354/Preferred+Drug+List.pdf/533764a9-1715-6daf-8eb5-bbe71e53ca1d?t=1688593048729"
       }
     ],
@@ -613,7 +613,7 @@
     "name": "Tennessee",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.optumrx.com/content/dam/openenrollment/pdfs/Tenncare/home-page/preferred-drug-list/Preferred%20Drug%20List%20(PDL).pdf"
       }
     ],
@@ -628,7 +628,7 @@
     "name": "North Carolina",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://medicaid.ncdhhs.gov/nc-medicaids-preferred-drug-list-pdl-revised-sept-1-2024/download?attachment"
       }
     ],
@@ -643,7 +643,7 @@
     "name": "South Carolina",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://southcarolina.fhsc.com/downloads/provider/SCpdl_listing_20240701v2.pdf"
       }
     ],
@@ -671,7 +671,7 @@
     "name": "Arizona",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.uhcprovider.com/content/dam/provider/docs/public/commplan/az/pharmacy/AZ-Preferred-Drug-List-Medicaid.pdf"
       }
     ],
@@ -686,7 +686,7 @@
     "name": "Oklahoma",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://oklahoma.gov/content/dam/ok/en/okhca/docs/providers/types/pharmacy/drug-lists/08.12.2024%20-%20Maintenance%20Drug%20List.pdf"
       },
       {
@@ -708,7 +708,7 @@
     "name": "Louisiana",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://ldh.la.gov/assets/HealthyLa/Pharmacy/PDL.pdf"
       }
     ],
@@ -723,7 +723,7 @@
     "name": "Mississippi",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://medicaid.ms.gov/wp-content/uploads/2024/08/MS-PDL-10012024_Future-Dated-for-PT.pdf"
       }
     ],
@@ -738,7 +738,7 @@
     "name": "Alabama",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://medicaid.alabama.gov/documents/4.0_Programs/4.3_Pharmacy-DME/4.3.7_Preferred_Drug_List/4.3.7_PDL_Alpha_7-1-24.pdf"
       }
     ],
@@ -753,7 +753,7 @@
     "name": "Georgia",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://dch.georgia.gov/document/document/pdl-drug-name-5-1-24/download"
       }
     ],
@@ -803,7 +803,7 @@
     "name": "Texas",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://www.txvendordrug.com/sites/default/files/docs/2024-0808-preferred-drug-list_2.pdf"
       }
     ],
@@ -818,7 +818,7 @@
     "name": "Florida",
     "links": [
       {
-        "name": "Medicaid",
+        "name": "Medicaid formulary",
         "link": "https://ahca.myflorida.com/content/download/22289/file/June%202024%20P%26T%20PDL%2008.29.2024.pdf"
       }
     ],
