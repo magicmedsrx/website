@@ -76,10 +76,10 @@ async function initializeMap() {
 			toggleClasses(newState, true, 'active');
 
 			const stateInfo = document.getElementById('stateName');
-			stateInfo.innerHTML = state.name;
+			stateInfo.textContent = state.name;
 
 			const stateLink = document.getElementById('stateLinks');
-			stateLink.innerHTML = '';
+			stateLink.textContent = '';
 
 			state.links.forEach((link) => {
 				const div = document.createElement('div');
