@@ -114,13 +114,6 @@ function hideElement(element) {
 	element.style.display = 'none';
 }
 
-function setPillImgHeight() {
-	const reference = document.querySelector('.guideInfoText');
-	const target = document.querySelector('.pillImg');
-	target.setAttribute('height', reference.offsetHeight);
-	target.setAttribute('height', reference.offsetHeight);
-}
-
 function mkNavBar() {
 	const navbar = document.getElementById('navContainer');
 
