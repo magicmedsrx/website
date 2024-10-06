@@ -84,13 +84,9 @@ async function initializeMap() {
 			state.links.forEach((link) => {
 				const div = document.createElement('div');
 
-				const span = document.createElement('span');
-				span.textContent = `${link.name}: `;
-				div.appendChild(span);
-
 				const a = document.createElement('a');
 				a.href = link.link;
-				a.textContent = `${link.link.split('/')[2]}/...`;
+				a.textContent = link.name;
 				div.appendChild(a);
 
 				const br = document.createElement('br');
