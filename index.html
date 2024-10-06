@@ -10,6 +10,9 @@
 		<link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
 		<!-- Only increment the last digit -->
 		<link rel="stylesheet" href="./styles/stylesheet.css?v=0.5.0" />
+
+		<!-- https://github.com/paulirish/lite-youtube-embed -->
+		<link rel="stylesheet" href="./external/lite-yt-embed.css?v=0.3.3" />
 		<title>Magic Meds RX</title>
 	</head>
 
@@ -35,7 +38,7 @@
 				</ol>
 			</div>
 
-			<iframe class="video" src="https://www.youtube.com/embed/H90fSoQh2sg"></iframe>
+			<lite-youtube class="video" videoid="H90fSoQh2sg" playlabel="How to Use Magic"></lite-youtube>
 
 			<div class="guideInfoContainer">
 				<img class="pillImg" src="./img/pills.jpg" onload="setPillImgHeight();" />
@@ -79,5 +82,8 @@
 
 		<!-- Only increment the last digit -->
 		<script src="./js/include.js?v=0.1.2" onload="mkNavBar();mkFooter();"></script>
+
+		<!-- https://github.com/paulirish/lite-youtube-embed -->
+		<script src="./external/lite-yt-embed.js?v=0.3.3"></script>
 	</body>
 </html>
