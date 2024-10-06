@@ -75,13 +75,21 @@ function initializeMap() {
 			stateLink.innerHTML = '';
 
 			state.links.forEach((link) => {
+				const div = document.createElement('div');
+
+				const span = document.createElement('span');
+				span.textContent = `${link.name}: `;
+				div.appendChild(span);
+
 				const a = document.createElement('a');
 				a.href = link.link;
-				a.textContent = link.name;
-				stateLink.appendChild(a);
+				a.textContent = `${link.link.split('/')[2]}/...`;
+				div.appendChild(a);
 
 				const br = document.createElement('br');
-				stateLink.appendChild(br);
+				div.appendChild(br);
+
+				stateLink.appendChild(div);
 			});
 
 			if (state.notes) {
