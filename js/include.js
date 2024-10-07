@@ -1,12 +1,3 @@
-// when updating the pdf names increment the version number in institution.html, important!
-const INSTITUTION_PDF_NAME = 'MAGICFULL09.07.24.pdf';
-const PATIENT_PDF_NAME = 'MAGICSHORT05.22.23.pdf';
-
-const FL_MEDICARE_ADVANTAGE = 'fl_advantage_10_04_24.pdf';
-const FL_MEDICARE_PART_D = 'fl_part_d_10_04_24.pdf';
-
-const MEDICAID_PDF_NAME = 'medicaid_10_5_24.pdf';
-
 function getCookie(cookieName) {
 	const name = cookieName + '=';
 	const decodedCookie = decodeURIComponent(document.cookie);
