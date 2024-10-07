@@ -47,13 +47,17 @@
 			<lite-youtube class="video" videoid="H90fSoQh2sg" playlabel="How to Use Magic"></lite-youtube>
 
 			<div class="guideInfoContainer">
-				<img
-					class="pillImg"
-					src="./img/pills.resize.jpg.webp"
-					height="483"
-					width="1000"
-					alt="Open pill bottle, with pills spilled on a surface."
-				/>
+				<picture>
+					<source media="(min-width:650px)" srcset="./img/pills.crop_2_06.1000x489.jpg.webp" />
+					<img
+						class="pillImg"
+						src="./img/pills.crop_1_03_418x406.jpg.webp"
+						alt="Open pill bottle, with pills spilled on a surface."
+						width="1000px"
+						height="489px"
+					/>
+				</picture>
+
 				<div class="guideInfoText">
 					<p>
 						M.A.G.I.C. is intended for use by persons who have trouble affording ANY of their brand
@@ -127,7 +131,7 @@
 				<img
 					src="./img/tresiba.resize.jpeg.webp"
 					width="250"
-					height="118"
+					height="148"
 					loading="lazy"
 					alt="Pharmaceutical company logo, Tresiba."
 				/>

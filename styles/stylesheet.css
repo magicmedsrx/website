@@ -120,6 +120,7 @@ hr {
 
 .logo {
 	width: clamp(100px, 100%, 600px);
+	height: clamp(100px, 100%, 600px);
 }
 
 .blackBackground {
@@ -178,6 +179,7 @@ hr {
 	position: relative;
 	margin-top: 20px;
 	width: calc(100% - 6px);
+	height: 400;
 }
 
 .pillImg {
@@ -185,7 +187,18 @@ hr {
 	border: 3px solid var(--almostBlack);
 	border-radius: var(--radius);
 	width: 100%;
+	height: 400px;
 	opacity: 0.75;
+}
+
+@media only screen and (min-width: 600px) {
+	.guideInfoContainer {
+		height: 495px;
+	}
+
+	.pillImg {
+		height: 495px;
+	}
 }
 
 .guideInfoText {
