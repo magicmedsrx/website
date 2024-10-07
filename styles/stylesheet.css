@@ -108,14 +108,14 @@ hr {
 	margin: auto;
 	padding: 0 5px;
 	width: clamp(100px, calc(100% - 10px), 1000px);
-	color: var(--darkBlue);
+	color: #000;
 }
 
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	color: var(--darkBlue);
+	color: #000;
 }
 
 .logo {
@@ -128,6 +128,11 @@ hr {
 
 .darkBlue {
 	color: var(--darkBlue);
+}
+
+.bigLink {
+	font-size: var(--fs-500);
+	margin: 20px;
 }
 
 /* index.html */
@@ -217,6 +222,7 @@ hr {
 }
 
 .centerTitle {
+	color: var(--darkBlue);
 	text-align: center;
 	font-size: var(--fs-700);
 }
@@ -290,7 +296,7 @@ input {
 .pdfError {
 	padding: 5%;
 	font-size: var(--fs-500);
-	color: var(--darkBlue);
+	color: #000;
 	text-align: center;
 }
 
@@ -311,7 +317,7 @@ svg {
 }
 
 .abbrText {
-	fill: var(--darkBlue);
+	fill: #000;
 }
 
 .hovered {
@@ -325,7 +331,7 @@ svg {
 }
 
 #stateLinks {
-	color: var(--darkBlue);
+	color: #000;
 	font-size: var(--fs-400);
 }
 
