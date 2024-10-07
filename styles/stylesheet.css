@@ -231,6 +231,7 @@ hr {
 
 .aboutImage {
 	width: clamp(100px, 40vw, 400px);
+	height: clamp(150px, 40vh, 600px);
 	float: left;
 	margin-right: 40px;
 	border-radius: var(--radius);
