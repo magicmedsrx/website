@@ -137,6 +137,10 @@ hr {
 	margin: 20px;
 }
 
+.text400 {
+	font-size: var(--fs-400);
+}
+
 /* index.html */
 .indexInfo {
 	padding: 0 10px;
