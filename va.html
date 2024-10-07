@@ -6,31 +6,32 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="author" content="Kyle Ames" />
-		<meta name="description" content="Register for counseling." />
+		<meta name="description" content="Institution access to magic." />
 		<link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
 		<!-- Only increment the last digit -->
 		<link rel="stylesheet" href="./styles/stylesheet.css?v=0.5.0" />
-		<title>REGISTER</title>
+		<title>VA Info</title>
 	</head>
 
 	<body>
 		<nav id="navContainer"></nav>
 
-		<img
-			class="center logo"
-			src="./img/logo.jpg.webp"
-			alt="MAGIC Meds Rx Logo. MAGIC acronym spelled out with the I replaced with a magic wand, pointing upwards in a burst of teal with a pill in the center."
-		/>
+		<div class="container">
+			<ol>
+				<li>Select link for VA formulary search above</li>
+				<li>Type in name of your medication to see if covered on VA formulary</li>
+				<li>Use key below for VA formulary abbreviations</li>
+			</ol>
 
-		<iframe
-			class="center registrationForm"
-			src="https://docs.google.com/forms/d/e/1FAIpQLScyaiCy-ZqIaSalsn0RkDXhp2jBfLI6ndGKw3Kov12bBteo3w/viewform?embedded=true"
-			frameborder="0"
-			marginheight="0"
-			marginwidth="0"
-		>
-			Loading…
-		</iframe>
+			<a class="bigLink" href="https://www.va.gov/formularyadvisor/">VA formulary search</a>
+
+			<img
+				class="center logo"
+				src="./img/vaformularyabbreviations.png.webp"
+				loading="lazy"
+				alt="Large text table of VA formulary abbreviations."
+			/>
+		</div>
 
 		<footer id="footerContainer"></footer>
 

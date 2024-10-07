@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- © 2022 Kyle Ames. All rights reserved. -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Kyle Ames" />
+		<meta name="description" content="Institution access to magic." />
+		<link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
+		<!-- Only increment the last digit -->
+		<link rel="stylesheet" href="./styles/stylesheet.css?v=0.5.0" />
+		<title>Medicare Info</title>
+	</head>
+
+	<body>
+		<nav id="navContainer"></nav>
+
+		<div class="container">
+			<div class="medicareStates">
+				<div class="container">
+					<img
+						class="floridaImage"
+						src="./img/floridamap.jpg.webp"
+						width="366"
+						height="453"
+						loading="lazy"
+						alt="Hand holding a small cutout of the state of Florida, with a blrred background of foliage."
+					/>
+
+					<a class="bigLink" id="fl_medicarePartD" href="./pdf/viewer.html">
+						FL Medicare Part D 2025
+					</a>
+					<a class="bigLink" id="fl_medicareAdvantage" href="./pdf/viewer.html">
+						FL Medicare Advantage 2025
+					</a>
+				</div>
+			</div>
+
+			<p>Additional states available upon request.</p>
+		</div>
+
+		<footer id="footerContainer"></footer>
+
+		<!-- Only increment the last digit -->
+		<script
+			src="./js/include.js?v=0.1.3"
+			onload="mkNavBar();mkFooter();fillMedicareLinks();"
+		></script>
+	</body>
+</html>
