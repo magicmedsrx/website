@@ -660,6 +660,12 @@
       "y": 290
     },
     "name": "District of Columbia",
+    "links": [
+      {
+        "name": "Medicaid formulary",
+        "link": "https://dc.fhsc.com/downloads/providers/DCRx_PDL_listing.pdf"
+      }
+    ],
     "shape": "M805.81945,250.84384L803.9611699999999,249.01967L802.72854,248.33337999999998L804.1715499999999,246.31090999999998L807.0606399999999,248.25940999999997L805.81945,250.84383999999997Z"
   },
   {
