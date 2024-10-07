@@ -48,7 +48,7 @@ nav {
 }
 
 nav > a {
-	color: var(--backGroundColor);
+	color: #000;
 	text-decoration: none;
 	margin: 0 10px;
 	font-size: var(--fs-400);
@@ -56,7 +56,8 @@ nav > a {
 }
 
 nav > a:hover {
-	background-color: #111;
+	background-color: var(--backGroundColor);
+	border-radius: 3px;
 }
 
 @media only screen and (max-width: 460px) {
@@ -88,7 +89,7 @@ iframe {
 }
 
 footer {
-	color: var(--darkBlue);
+	color: #000;
 	font-size: var(--fs-400);
 	text-align: center;
 	margin: 20px;
@@ -134,7 +135,7 @@ hr {
 	padding: 0 10px;
 	font-size: var(--fs-400);
 	background-color: var(--darkBlue);
-	color: var(--backGroundColor);
+	color: #000;
 	border-radius: var(--radius);
 }
 
@@ -183,6 +184,7 @@ hr {
 }
 
 .guideInfoText {
+	color: #000;
 	position: absolute;
 	top: 0;
 	padding: 0 10px;
@@ -208,6 +210,7 @@ hr {
 
 /* about.html */
 .justifyText {
+	color: #000;
 	text-align: justify;
 	font-size: var(--fs-500);
 	padding: 0 10px;
