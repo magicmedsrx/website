@@ -72,13 +72,14 @@ nav > a:hover {
 		text-align: center;
 		display: block;
 		width: 50%;
-		margin: auto;
+		margin: 4px auto;
 		border-bottom: 1px solid var(--backGroundColor);
 		font-size: var(--fs-500);
 	}
 
 	nav > a:last-child {
 		border-bottom: none;
+		margin: auto;
 	}
 }
 
