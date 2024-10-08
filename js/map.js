@@ -81,16 +81,16 @@ async function initializeMap() {
 			const stateLink = document.getElementById('stateLinks');
 			stateLink.textContent = '';
 
+			const div = document.createElement('div');
+			div.setAttribute('class', 'medicaidLinks');
 			state.links.forEach((link) => {
-				const div = document.createElement('div');
-
 				const a = document.createElement('a');
 				a.href = link.link;
 				a.textContent = link.name;
 				div.appendChild(a);
 
 				const br = document.createElement('br');
-				div.appendChild(br);
+				// div.appendChild(br);
 
 				stateLink.appendChild(div);
 			});
