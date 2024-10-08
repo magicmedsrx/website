@@ -337,6 +337,13 @@ svg {
 	stroke-width: 2;
 }
 
+.medicaidLinks {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: var(--fs-300);
+}
+
 #stateLinks {
 	color: #000;
 	font-size: var(--fs-400);
