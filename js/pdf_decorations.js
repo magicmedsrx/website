@@ -1,7 +1,7 @@
 // when updating the pdf names increment the version numbers
 
 // institution.html
-const INSTITUTION_PDF_NAME = 'MAGICFULL05.24.25.pdf';
+const INSTITUTION_PDF_NAME = 'MAGICFULL07.16.25.pdf';
 const PATIENT_PDF_NAME = 'MAGICSHORT05.22.23.pdf';
 
 // medicare.html
