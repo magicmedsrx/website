@@ -213,6 +213,7 @@ function fillMedicareLinks() {
 	links = [
 		{ id: 'fl_medicarePartD', dir: 'medicare', pdf: FL_MEDICARE_PART_D },
 		{ id: 'fl_medicareAdvantage', dir: 'medicare', pdf: FL_MEDICARE_ADVANTAGE },
+		{ id: 'medicareextrahelp', dir: 'medicare', pdf:medicareextrahelp },
 	];
 
 	links.forEach((link) => {
