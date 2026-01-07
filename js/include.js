@@ -211,8 +211,6 @@ async function loadPDF() {
 
 function fillMedicareLinks() {
 	links = [
-		{ id: 'fl_medicarePartD', dir: 'medicare', pdf: FL_MEDICARE_PART_D },
-		{ id: 'fl_medicareAdvantage', dir: 'medicare', pdf: FL_MEDICARE_ADVANTAGE },
 		{ id: 'medicareextrahelp', dir: 'medicare', pdf:medicareextrahelp },
 		{ id: 'pdppreview', dir: 'medicare', pdf:pdppreview },
 		{ id: 'mapdpreview', dir: 'medicare', pdf:mapdpreview },
