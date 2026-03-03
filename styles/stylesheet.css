@@ -360,4 +360,94 @@ svg {
 	text-align: center;
 }
 
+.uniteusSection {
+    margin-top: 40px;
+}
+
+.floridaImage,
+.bigLink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ol, h3, p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+/* =====================================================
+   GoodRx & Cost Plus Drugs Page Styling
+   Professional Layout – Centered, Responsive, Clean
+===================================================== */
+
+.goodrx,
+.costplus {
+    text-align: center;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+/* Logo Images */
+.goodrx img,
+.costplus img {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 100%;
+    max-width: 520px;     /* Controls logo size */
+    height: auto;
+    border-radius: 16px;
+    transition: transform 0.25s ease;
+}
+
+/* Subtle professional hover effect */
+.goodrx img:hover,
+.costplus img:hover {
+    transform: scale(1.03);
+}
+
+/* Section Headline Links */
+.goodrx .bigLink,
+.costplus .bigLink {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 25px;
+    color: #00676b;              /* Your brand teal */
+    transition: color 0.2s ease;
+}
+
+.goodrx .bigLink:hover,
+.costplus .bigLink:hover {
+    color: #004f52;
+    text-decoration: underline;
+}
+
+/* Section Descriptions */
+.goodrx h3,
+.costplus h3 {
+    max-width: 750px;
+    margin: 0 auto 25px auto;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Ordered Lists */
+.goodrx ol,
+.costplus ol {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Extra spacing between the two sections */
+.costplus {
+    border-top: 1px solid #d6d6d6;
+    padding-top: 80px;
+}
 /* if ANY changes are made in this file increment the version number in all html files, !important */

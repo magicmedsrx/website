@@ -114,16 +114,12 @@ function mkNavBar() {
 		{ href: '/', text: 'HOME' },
 		{ href: '/about.html', text: 'ABOUT' },
 		{ href: '/institution.html', text: 'INSTITUTIONS' },
-		{
-			href: '/pdf/viewer.html?file=' + 'patient/' + PATIENT_PDF_NAME,
-			text: 'PATIENTS',
-			mobile_href: './pdf/patient/' + PATIENT_PDF_NAME + '#toolbar=0',
-		},
-
 		{ href: '/register.html', text: 'REGISTER' },
 		{ href: '/medicare.html', text: 'MEDICARE' },
 		{ href: '/medicaid.html', text: 'MEDICAID' },
 		{ href: '/va.html', text: 'VA' },
+        { href: '/uniteus.html', text: 'UniteUs'},
+        { href: '/goodrx.html', text: 'GoodRx & Cost Plus Drugs'},
 
 		{
 			href: 'https://youtu.be/fY1GZmP2tQY',
@@ -215,6 +211,7 @@ function fillMedicareLinks() {
 		{ id: 'pdppreview', dir: 'medicare', pdf:pdppreview },
 		{ id: 'mapdpreview', dir: 'medicare', pdf:mapdpreview },
 	];
+
 	links.forEach((link) => {
 		const element = document.getElementById(link.id);
 

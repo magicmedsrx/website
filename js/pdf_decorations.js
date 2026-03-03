@@ -2,7 +2,6 @@
 
 // institution.html
 const INSTITUTION_PDF_NAME = 'MAGICFULL03.03.26.pdf';
-const PATIENT_PDF_NAME = 'MAGICSHORT05.22.23.pdf';
 
 // medicare.html
 const medicareextrahelp = 'Extrahelp03.03.26.pdf';

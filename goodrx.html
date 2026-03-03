@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- © 2022 Kyle Ames. All rights reserved. -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Kyle Ames" />
+		<meta name="description" content="Medicare Info." />
+		<link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
+		<!-- Only increment the last digit -->
+		<link rel="stylesheet" href="./styles/stylesheet.css?v=0.5.2" />
+		<title>GoodRx and CostPlusDrugs</title>
+	</head>
+    <body>
+        <nav id="navContainer"></nav>
+    
+        <div class="container">
+    
+            <!-- GOODRX SECTION -->
+            <div class="goodrx">
+                <img
+                    class="goodrx"
+                    src="./img/goodrx.jpg.webp"
+                    loading="lazy"
+                    alt="GoodRx logo"
+                />
+    
+                <a class="bigLink" href="https://goodrx.com">
+                    GoodRx prices
+                </a>
+    
+                <h3>
+                    GoodRx is NOT insurance. It is a discount program used in place of insurance.
+                    It is most useful for generic medications.
+                </h3>
+    
+                <ol>
+                    <li>GoodRx price is pharmacy dependent.</li>
+                    <li>Go to GoodRx.com and type your medication.</li>
+                    <li>Review costs at different pharmacies.</li>
+                    <li>Select how to receive the coupon.</li>
+                    <li>Present coupon at pharmacy.</li>
+                </ol>
+            </div>
+    
+            <!-- COST PLUS DRUGS SECTION -->
+            <div class="costplus">
+                <img
+                    class="costplusdrugs"
+                    src="./img/costplusdrugs.jpg.webp"
+                    width="366"
+                    height="453"
+                    loading="lazy"
+                    alt="Cost Plus Drugs logo"
+                />
+    
+                <a class="bigLink" href="https://costplusdrugs.com">
+                    Cost Plus Drugs prices
+                </a>
+    
+                <h3>
+                    Cost Plus Drugs offers significantly reduced pricing on generics shipped to your home.
+                </h3>
+    
+                <ol>
+                    <li>Create a free account.</li>
+                    <li>Review medication prices.</li>
+                    <li>Have provider send prescription.</li>
+                    <li>Add prescriptions to cart.</li>
+                    <li>Checkout (small shipping fee applies).</li>
+                </ol>
+            </div>
+    
+        </div>
+    
+        <footer id="footerContainer"></footer>
+    
+        <script src="./js/pdf_decorations.js?v=0.1.0"></script>
+<script
+    src="./js/include.js?v=0.1.4"
+    onload="mkNavBar();mkFooter();"
+></script>
+    </body>
+</html>
