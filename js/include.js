@@ -114,7 +114,6 @@ function mkNavBar() {
 		{ href: '/', text: 'HOME' },
 		{ href: '/about.html', text: 'ABOUT' },
 		{ href: '/institution.html', text: 'INSTITUTIONS' },
-		{ href: '/register.html', text: 'REGISTER' },
 		{ href: '/medicare.html', text: 'MEDICARE' },
 		{ href: '/medicaid.html', text: 'MEDICAID' },
 		{ href: '/va.html', text: 'VA' },
